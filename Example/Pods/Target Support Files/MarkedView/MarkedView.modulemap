@@ -1,0 +1,6 @@
+framework module MarkedView {
+  umbrella header "MarkedView-umbrella.h"
+
+  export *
+  module * { export * }
+}

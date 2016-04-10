@@ -1,0 +1,25 @@
+{
+  "name": "MarkedView",
+  "version": "0.1.0",
+  "summary": "A short description of MarkedView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MarkedView",
+  "license": "MIT",
+  "authors": {
+    "mittsu": "otok553@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MarkedView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MarkedView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
