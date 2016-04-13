@@ -19,7 +19,7 @@
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "MarkedView": [
-      "Pod/Assets/*.png"
+      "Pod/Assets/**/*"
     ]
   }
 }

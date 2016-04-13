@@ -1,859 +1,1797 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		0C1042FF335A25B8A76F588998CB1971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		11928BE92C3AD9E9F874B8C708FCEAC0 /* MarkedView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */; };
-		3142B736FABF68922C935FE5255A148B /* MarkedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD28B64EA5B05285636986FE74A69677 /* MarkedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		480144F862D7A7E846BEFED36D869E78 /* Pods-MarkedView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6217391CB8DD2F341A8FB930BBC378CA /* Pods-MarkedView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		742A8147A3B1A1E185C2816C27C87E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		893CB2521CBA85C000E10DEE /* UIMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893CB24F1CBA85C000E10DEE /* UIMarkedView.swift */; };
-		893CB2531CBA85C000E10DEE /* UIMarkedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893CB2501CBA85C000E10DEE /* UIMarkedView.xib */; };
-		893CB2541CBA85C000E10DEE /* WKMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893CB2511CBA85C000E10DEE /* WKMarkedView.swift */; };
-		893CB2601CBA85EF00E10DEE /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 893CB2571CBA85EF00E10DEE /* bootstrap.css */; };
-		893CB2611CBA85EF00E10DEE /* github-gist.css in Resources */ = {isa = PBXBuildFile; fileRef = 893CB2581CBA85EF00E10DEE /* github-gist.css */; };
-		893CB2621CBA85EF00E10DEE /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = 893CB2591CBA85EF00E10DEE /* github.css */; };
-		893CB2631CBA85EF00E10DEE /* highlight.pack.js in Resources */ = {isa = PBXBuildFile; fileRef = 893CB25B1CBA85EF00E10DEE /* highlight.pack.js */; };
-		893CB2641CBA85EF00E10DEE /* jquery-2.1.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 893CB25C1CBA85EF00E10DEE /* jquery-2.1.4.min.js */; };
-		893CB2651CBA85EF00E10DEE /* marked.js in Resources */ = {isa = PBXBuildFile; fileRef = 893CB25D1CBA85EF00E10DEE /* marked.js */; };
-		893CB2661CBA85EF00E10DEE /* md_preview.js in Resources */ = {isa = PBXBuildFile; fileRef = 893CB25E1CBA85EF00E10DEE /* md_preview.js */; };
-		893CB2671CBA85EF00E10DEE /* md_preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 893CB25F1CBA85EF00E10DEE /* md_preview.html */; };
-		893CB26F1CBA99A100E10DEE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 893CB26E1CBA99A100E10DEE /* .gitkeep */; };
-		AEE01A60D87AE6B31539786539AE8643 /* Pods-MarkedView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */; };
-		DF7C4CE52E087E8290ACC98E8F768F90 /* MarkedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AA6E1D350E8028813DAC6FF775BDB6 /* MarkedView-dummy.m */; };
-		F44C308BE300D3D7EA6D4D9099C76556 /* Pods-MarkedView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 813C8A1820FD8F7F98B6618C73237DBB /* Pods-MarkedView_Tests-dummy.m */; };
-		FB8C9CAD1ACF02D07B788E7B8DD74D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6B074030C134F4364AB15BC2E5E420EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9274B2BFE4108C83318D862DFFE7E1F;
-			remoteInfo = "MarkedView-MarkedView";
-		};
-		8505BD4B5C569E400D66DB4FF728EE9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B7699F18AD530092C30089386BBFFE9;
-			remoteInfo = MarkedView;
-		};
-		C6030BACB34932128019E6A970D22E31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B7699F18AD530092C30089386BBFFE9;
-			remoteInfo = MarkedView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		09CCFED69F15751130DF2201EBCE8848 /* Pods-MarkedView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkedView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C7FEA571EEE3129F60D9C2AB64D2E84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		113D34EE6C75D2C9C2B38BA7D27A3841 /* Pods-MarkedView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkedView_Tests.modulemap"; sourceTree = "<group>"; };
-		239F8D40318CE7474243E0E2FBC2F527 /* MarkedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AB6BED4D0822D78FE2FAD5CD890F081 /* Pods-MarkedView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2FDBA9758309F674D54FD7AF2175E673 /* Pods-MarkedView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkedView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42672D7061BE04C347CF5A1104B8CFA0 /* Pods-MarkedView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkedView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		470B40F9DD46B4821C066A367F750347 /* Pods-MarkedView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5CBD7BA0060063E75A0A9585F4A7862F /* Pods_MarkedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7098384D0E5882248915FF85840D5134 /* Pods-MarkedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7535390C9DA96782916EE5CDF7E33384 /* Pods_MarkedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkedView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7943A8C4FB0B1A3D32F46608A94A8412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B04AF98AF99FA851C3068EDDC714276 /* MarkedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MarkedView.modulemap; sourceTree = "<group>"; };
-		813C8A1820FD8F7F98B6618C73237DBB /* Pods-MarkedView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkedView_Tests-dummy.m"; sourceTree = "<group>"; };
-		84DE44FA32AC6A8FAEF29965719A3000 /* Pods-MarkedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		893CB24F1CBA85C000E10DEE /* UIMarkedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMarkedView.swift; sourceTree = "<group>"; };
-		893CB2501CBA85C000E10DEE /* UIMarkedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIMarkedView.xib; path = ../Classes/UIMarkedView.xib; sourceTree = "<group>"; };
-		893CB2511CBA85C000E10DEE /* WKMarkedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMarkedView.swift; sourceTree = "<group>"; };
-		893CB2571CBA85EF00E10DEE /* bootstrap.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
-		893CB2581CBA85EF00E10DEE /* github-gist.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-gist.css"; sourceTree = "<group>"; };
-		893CB2591CBA85EF00E10DEE /* github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
-		893CB25B1CBA85EF00E10DEE /* highlight.pack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
-		893CB25C1CBA85EF00E10DEE /* jquery-2.1.4.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-2.1.4.min.js"; sourceTree = "<group>"; };
-		893CB25D1CBA85EF00E10DEE /* marked.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = marked.js; sourceTree = "<group>"; };
-		893CB25E1CBA85EF00E10DEE /* md_preview.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = md_preview.js; sourceTree = "<group>"; };
-		893CB25F1CBA85EF00E10DEE /* md_preview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = md_preview.html; sourceTree = "<group>"; };
-		893CB26E1CBA99A100E10DEE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		8BB7C0818EA9FA367CB0C03511C6D137 /* MarkedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkedView-prefix.pch"; sourceTree = "<group>"; };
-		8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkedView_Example-dummy.m"; sourceTree = "<group>"; };
-		96AA6E1D350E8028813DAC6FF775BDB6 /* MarkedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkedView-dummy.m"; sourceTree = "<group>"; };
-		9764236D6236635FDA989B5FFFC3F91E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EEFD12D097EAD2B31112053B770C164 /* Pods-MarkedView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkedView_Example.modulemap"; sourceTree = "<group>"; };
-		A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5D9A375C33FC94BB9DAF9EE579000B5 /* MarkedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkedView.xcconfig; sourceTree = "<group>"; };
-		AD28B64EA5B05285636986FE74A69677 /* MarkedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkedView-umbrella.h"; sourceTree = "<group>"; };
-		AD346F6202996DAADB90513B407FE025 /* Pods-MarkedView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Example-resources.sh"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C13ACFF857DE7CA5D853D620974FBCB8 /* Pods-MarkedView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Tests-resources.sh"; sourceTree = "<group>"; };
-		DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarkedView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EC69EC85027AA61C5F522A1C214B64E1 /* Pods-MarkedView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkedView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarkedView_Example-umbrella.h"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		01A02F4C72DE897919A2E49F062C98AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				742A8147A3B1A1E185C2816C27C87E9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		367021E21B893BB3D29C22A942AA2BE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB8C9CAD1ACF02D07B788E7B8DD74D60 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CC2645BFEA154301D347FA95685E8A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		832977093DB9BD4E979C67DA665965D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C1042FF335A25B8A76F588998CB1971 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		1313EB6D98D17494C7A4CC924CD2BD9C /* Pods-MarkedView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9764236D6236635FDA989B5FFFC3F91E /* Info.plist */,
-				113D34EE6C75D2C9C2B38BA7D27A3841 /* Pods-MarkedView_Tests.modulemap */,
-				09CCFED69F15751130DF2201EBCE8848 /* Pods-MarkedView_Tests-acknowledgements.markdown */,
-				2FDBA9758309F674D54FD7AF2175E673 /* Pods-MarkedView_Tests-acknowledgements.plist */,
-				813C8A1820FD8F7F98B6618C73237DBB /* Pods-MarkedView_Tests-dummy.m */,
-				2AB6BED4D0822D78FE2FAD5CD890F081 /* Pods-MarkedView_Tests-frameworks.sh */,
-				C13ACFF857DE7CA5D853D620974FBCB8 /* Pods-MarkedView_Tests-resources.sh */,
-				DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */,
-				A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */,
-				84DE44FA32AC6A8FAEF29965719A3000 /* Pods-MarkedView_Tests.release.xcconfig */,
-			);
-			name = "Pods-MarkedView_Tests";
-			path = "Target Support Files/Pods-MarkedView_Tests";
-			sourceTree = "<group>";
-		};
-		2381E383862F7721CBDBE657F63CEE28 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DB23CD164B1102515B730521F596C655 /* MarkedView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		424B340FF31409B99CC4787FFEDF6B45 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				893CB26D1CBA99A100E10DEE /* Assets */,
-				6042672718C664DDF8F4483877AA56D6 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		464C9C9B3E352E7BE0F64333070F6641 /* Pods-MarkedView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				7943A8C4FB0B1A3D32F46608A94A8412 /* Info.plist */,
-				9EEFD12D097EAD2B31112053B770C164 /* Pods-MarkedView_Example.modulemap */,
-				42672D7061BE04C347CF5A1104B8CFA0 /* Pods-MarkedView_Example-acknowledgements.markdown */,
-				EC69EC85027AA61C5F522A1C214B64E1 /* Pods-MarkedView_Example-acknowledgements.plist */,
-				8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */,
-				470B40F9DD46B4821C066A367F750347 /* Pods-MarkedView_Example-frameworks.sh */,
-				AD346F6202996DAADB90513B407FE025 /* Pods-MarkedView_Example-resources.sh */,
-				EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */,
-				43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */,
-				7098384D0E5882248915FF85840D5134 /* Pods-MarkedView_Example.release.xcconfig */,
-			);
-			name = "Pods-MarkedView_Example";
-			path = "Target Support Files/Pods-MarkedView_Example";
-			sourceTree = "<group>";
-		};
-		4B4B60DCE88CC5D0B902859A91D0B22E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				464C9C9B3E352E7BE0F64333070F6641 /* Pods-MarkedView_Example */,
-				1313EB6D98D17494C7A4CC924CD2BD9C /* Pods-MarkedView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6042672718C664DDF8F4483877AA56D6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				893CB24F1CBA85C000E10DEE /* UIMarkedView.swift */,
-				893CB2511CBA85C000E10DEE /* WKMarkedView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				2381E383862F7721CBDBE657F63CEE28 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C4527E0B0A13D55AD422DCE13444C930 /* Products */,
-				4B4B60DCE88CC5D0B902859A91D0B22E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8006E10E2C1F4271A20485CCB1359C0F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C7FEA571EEE3129F60D9C2AB64D2E84 /* Info.plist */,
-				7B04AF98AF99FA851C3068EDDC714276 /* MarkedView.modulemap */,
-				A5D9A375C33FC94BB9DAF9EE579000B5 /* MarkedView.xcconfig */,
-				96AA6E1D350E8028813DAC6FF775BDB6 /* MarkedView-dummy.m */,
-				8BB7C0818EA9FA367CB0C03511C6D137 /* MarkedView-prefix.pch */,
-				AD28B64EA5B05285636986FE74A69677 /* MarkedView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MarkedView";
-			sourceTree = "<group>";
-		};
-		893CB2551CBA85EF00E10DEE /* html */ = {
-			isa = PBXGroup;
-			children = (
-				893CB2561CBA85EF00E10DEE /* css */,
-				893CB25A1CBA85EF00E10DEE /* js */,
-				893CB25F1CBA85EF00E10DEE /* md_preview.html */,
-			);
-			name = html;
-			path = "../../Example/Pods/Target Support Files/MarkedView/html";
-			sourceTree = "<group>";
-		};
-		893CB2561CBA85EF00E10DEE /* css */ = {
-			isa = PBXGroup;
-			children = (
-				893CB2571CBA85EF00E10DEE /* bootstrap.css */,
-				893CB2581CBA85EF00E10DEE /* github-gist.css */,
-				893CB2591CBA85EF00E10DEE /* github.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		893CB25A1CBA85EF00E10DEE /* js */ = {
-			isa = PBXGroup;
-			children = (
-				893CB25B1CBA85EF00E10DEE /* highlight.pack.js */,
-				893CB25C1CBA85EF00E10DEE /* jquery-2.1.4.min.js */,
-				893CB25D1CBA85EF00E10DEE /* marked.js */,
-				893CB25E1CBA85EF00E10DEE /* md_preview.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		893CB26D1CBA99A100E10DEE /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				893CB2551CBA85EF00E10DEE /* html */,
-				893CB2501CBA85C000E10DEE /* UIMarkedView.xib */,
-				893CB26E1CBA99A100E10DEE /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C4527E0B0A13D55AD422DCE13444C930 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */,
-				239F8D40318CE7474243E0E2FBC2F527 /* MarkedView.framework */,
-				7535390C9DA96782916EE5CDF7E33384 /* Pods_MarkedView_Example.framework */,
-				5CBD7BA0060063E75A0A9585F4A7862F /* Pods_MarkedView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DB23CD164B1102515B730521F596C655 /* MarkedView */ = {
-			isa = PBXGroup;
-			children = (
-				424B340FF31409B99CC4787FFEDF6B45 /* Pod */,
-				8006E10E2C1F4271A20485CCB1359C0F /* Support Files */,
-			);
-			name = MarkedView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		0869376408FE18C26BA373D1583D1030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				480144F862D7A7E846BEFED36D869E78 /* Pods-MarkedView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		241EF22EB1C9088FB352CB1A58FA9773 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6217391CB8DD2F341A8FB930BBC378CA /* Pods-MarkedView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FA566B236A8801F111B12A1824EA6D1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3142B736FABF68922C935FE5255A148B /* MarkedView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		19EF38CA8C8F6E4B6DD230BD69E77BFF /* Pods-MarkedView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B5C08CDD0A197D329C30E11D3837346 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Tests" */;
-			buildPhases = (
-				9C44B44E5BD9456A9EFA811BD96AC439 /* Sources */,
-				367021E21B893BB3D29C22A942AA2BE1 /* Frameworks */,
-				0869376408FE18C26BA373D1583D1030 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AD471F06A39CF3A63F43714A20C2AAB /* PBXTargetDependency */,
-			);
-			name = "Pods-MarkedView_Tests";
-			productName = "Pods-MarkedView_Tests";
-			productReference = 5CBD7BA0060063E75A0A9585F4A7862F /* Pods_MarkedView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1B7699F18AD530092C30089386BBFFE9 /* MarkedView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F5C3C5B44A194F0415C9C1ECC59DCFB /* Build configuration list for PBXNativeTarget "MarkedView" */;
-			buildPhases = (
-				8C1AC0226931FA0490BE1330112FA09A /* Sources */,
-				832977093DB9BD4E979C67DA665965D2 /* Frameworks */,
-				E74D0FDE2A458806AEA727E653074FC6 /* Resources */,
-				8FA566B236A8801F111B12A1824EA6D1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2AFD04CF62EE90E237526654CFAB429 /* PBXTargetDependency */,
-			);
-			name = MarkedView;
-			productName = MarkedView;
-			productReference = 239F8D40318CE7474243E0E2FBC2F527 /* MarkedView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		57E4733012269440750EC9C6C8E7174E /* Pods-MarkedView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45CCFE388E2535D366EF2AFF7A6CFBFE /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Example" */;
-			buildPhases = (
-				BF8695192E606AD92300CCA16C4AE4CE /* Sources */,
-				01A02F4C72DE897919A2E49F062C98AD /* Frameworks */,
-				241EF22EB1C9088FB352CB1A58FA9773 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB42C13BCE26CAD113335C603FE08E19 /* PBXTargetDependency */,
-			);
-			name = "Pods-MarkedView_Example";
-			productName = "Pods-MarkedView_Example";
-			productReference = 7535390C9DA96782916EE5CDF7E33384 /* Pods_MarkedView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B9274B2BFE4108C83318D862DFFE7E1F /* MarkedView-MarkedView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED396E05C02E164D24DA72C2816924AC /* Build configuration list for PBXNativeTarget "MarkedView-MarkedView" */;
-			buildPhases = (
-				C22715BFE7A688F227A421FB52AB7DB6 /* Sources */,
-				3CC2645BFEA154301D347FA95685E8A5 /* Frameworks */,
-				BB7CB7804409035DF5543B0AA247AEFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MarkedView-MarkedView";
-			productName = "MarkedView-MarkedView";
-			productReference = A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C4527E0B0A13D55AD422DCE13444C930 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				1B7699F18AD530092C30089386BBFFE9 /* MarkedView */,
-				B9274B2BFE4108C83318D862DFFE7E1F /* MarkedView-MarkedView */,
-				57E4733012269440750EC9C6C8E7174E /* Pods-MarkedView_Example */,
-				19EF38CA8C8F6E4B6DD230BD69E77BFF /* Pods-MarkedView_Tests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		BB7CB7804409035DF5543B0AA247AEFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E74D0FDE2A458806AEA727E653074FC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				893CB2651CBA85EF00E10DEE /* marked.js in Resources */,
-				893CB2641CBA85EF00E10DEE /* jquery-2.1.4.min.js in Resources */,
-				893CB26F1CBA99A100E10DEE /* .gitkeep in Resources */,
-				893CB2661CBA85EF00E10DEE /* md_preview.js in Resources */,
-				893CB2531CBA85C000E10DEE /* UIMarkedView.xib in Resources */,
-				893CB2621CBA85EF00E10DEE /* github.css in Resources */,
-				893CB2611CBA85EF00E10DEE /* github-gist.css in Resources */,
-				893CB2671CBA85EF00E10DEE /* md_preview.html in Resources */,
-				893CB2601CBA85EF00E10DEE /* bootstrap.css in Resources */,
-				11928BE92C3AD9E9F874B8C708FCEAC0 /* MarkedView.bundle in Resources */,
-				893CB2631CBA85EF00E10DEE /* highlight.pack.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		8C1AC0226931FA0490BE1330112FA09A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				893CB2521CBA85C000E10DEE /* UIMarkedView.swift in Sources */,
-				DF7C4CE52E087E8290ACC98E8F768F90 /* MarkedView-dummy.m in Sources */,
-				893CB2541CBA85C000E10DEE /* WKMarkedView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C44B44E5BD9456A9EFA811BD96AC439 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F44C308BE300D3D7EA6D4D9099C76556 /* Pods-MarkedView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF8695192E606AD92300CCA16C4AE4CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEE01A60D87AE6B31539786539AE8643 /* Pods-MarkedView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C22715BFE7A688F227A421FB52AB7DB6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8AD471F06A39CF3A63F43714A20C2AAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MarkedView;
-			target = 1B7699F18AD530092C30089386BBFFE9 /* MarkedView */;
-			targetProxy = C6030BACB34932128019E6A970D22E31 /* PBXContainerItemProxy */;
-		};
-		D2AFD04CF62EE90E237526654CFAB429 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MarkedView-MarkedView";
-			target = B9274B2BFE4108C83318D862DFFE7E1F /* MarkedView-MarkedView */;
-			targetProxy = 6B074030C134F4364AB15BC2E5E420EF /* PBXContainerItemProxy */;
-		};
-		EB42C13BCE26CAD113335C603FE08E19 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MarkedView;
-			target = 1B7699F18AD530092C30089386BBFFE9 /* MarkedView */;
-			targetProxy = 8505BD4B5C569E400D66DB4FF728EE9D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		47E0267462B9D22D4CA5199E92E6EB86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D9A375C33FC94BB9DAF9EE579000B5 /* MarkedView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MarkedView/MarkedView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarkedView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarkedView/MarkedView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		58ECDB38DEA5BD6B6ECF931229AD5924 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7098384D0E5882248915FF85840D5134 /* Pods-MarkedView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MarkedView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		676A24B412B4DB898E1022A9E28F606F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84DE44FA32AC6A8FAEF29965719A3000 /* Pods-MarkedView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Tests/Pods-MarkedView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MarkedView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		83519E15C128C7D30819E6A0B5C02371 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Tests/Pods-MarkedView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MarkedView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B68CD6BA310C6B76830254DC451C9406 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D9A375C33FC94BB9DAF9EE579000B5 /* MarkedView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C70B0D2E480AA1A9780FDDCF952BCD68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D9A375C33FC94BB9DAF9EE579000B5 /* MarkedView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DDE7E0D656C70CB83FDE10F3FB52B975 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D9A375C33FC94BB9DAF9EE579000B5 /* MarkedView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MarkedView/MarkedView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarkedView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarkedView/MarkedView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FEE8E9BCDDFD0600498C9FEF4B1AB137 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MarkedView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
-				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45CCFE388E2535D366EF2AFF7A6CFBFE /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FEE8E9BCDDFD0600498C9FEF4B1AB137 /* Debug */,
-				58ECDB38DEA5BD6B6ECF931229AD5924 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B5C08CDD0A197D329C30E11D3837346 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83519E15C128C7D30819E6A0B5C02371 /* Debug */,
-				676A24B412B4DB898E1022A9E28F606F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6F5C3C5B44A194F0415C9C1ECC59DCFB /* Build configuration list for PBXNativeTarget "MarkedView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47E0267462B9D22D4CA5199E92E6EB86 /* Debug */,
-				DDE7E0D656C70CB83FDE10F3FB52B975 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED396E05C02E164D24DA72C2816924AC /* Build configuration list for PBXNativeTarget "MarkedView-MarkedView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C70B0D2E480AA1A9780FDDCF952BCD68 /* Debug */,
-				B68CD6BA310C6B76830254DC451C9406 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>01A02F4C72DE897919A2E49F062C98AD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>742A8147A3B1A1E185C2816C27C87E9A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>04460C4473B53CA992394B375D49CE45</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0DEF4FA2643E501C266EED9DDF1DD52A</string>
+				<string>26C2FD45896881161A66E3EB904A6ED8</string>
+				<string>0652A0E413EE124EE43B4C6405816675</string>
+				<string>21428FEBBF2EA8F82EFE420DCC809161</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0652A0E413EE124EE43B4C6405816675</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F4ACC6E13715EC4615A804F7DB6644FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>074ECE2686CAC2EB2393BF71BF4EF5A8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>UIMarkedView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>077FF6540777612A15A24189824A11F9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A5D9A375C33FC94BB9DAF9EE579000B5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MarkedView</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0869376408FE18C26BA373D1583D1030</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>480144F862D7A7E846BEFED36D869E78</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>09CCFED69F15751130DF2201EBCE8848</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C7FEA571EEE3129F60D9C2AB64D2E84</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0DEF4FA2643E501C266EED9DDF1DD52A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>96AA6E1D350E8028813DAC6FF775BDB6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>10BE3F88834A36180FFBFCF7878DF66D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A5D9A375C33FC94BB9DAF9EE579000B5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MarkedView</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>113D34EE6C75D2C9C2B38BA7D27A3841</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1313EB6D98D17494C7A4CC924CD2BD9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9764236D6236635FDA989B5FFFC3F91E</string>
+				<string>113D34EE6C75D2C9C2B38BA7D27A3841</string>
+				<string>09CCFED69F15751130DF2201EBCE8848</string>
+				<string>2FDBA9758309F674D54FD7AF2175E673</string>
+				<string>813C8A1820FD8F7F98B6618C73237DBB</string>
+				<string>2AB6BED4D0822D78FE2FAD5CD890F081</string>
+				<string>C13ACFF857DE7CA5D853D620974FBCB8</string>
+				<string>DBD8F90E4606AA0E47E02A351D1661A0</string>
+				<string>A22CE3496213251EC3A38FEA7D79A60C</string>
+				<string>84DE44FA32AC6A8FAEF29965719A3000</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-MarkedView_Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-MarkedView_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>19EF38CA8C8F6E4B6DD230BD69E77BFF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5B5C08CDD0A197D329C30E11D3837346</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9C44B44E5BD9456A9EFA811BD96AC439</string>
+				<string>367021E21B893BB3D29C22A942AA2BE1</string>
+				<string>0869376408FE18C26BA373D1583D1030</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8AD471F06A39CF3A63F43714A20C2AAB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-MarkedView_Tests</string>
+			<key>productName</key>
+			<string>Pods-MarkedView_Tests</string>
+			<key>productReference</key>
+			<string>5CBD7BA0060063E75A0A9585F4A7862F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>1BC8C04B5E3F698D98E66F2937E674F7</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>30C8540355C8BE138ECD0007AD181E0C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>04460C4473B53CA992394B375D49CE45</string>
+				<string>6B4BD9A6F6D7CD87064DDB86083CE467</string>
+				<string>806C63C454DC1DFFFE9547D48C0193FB</string>
+				<string>BD73EF419DCDF750BB617B96F58A8E51</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3D6CD1A540DE08B856FD04FE5D6D6900</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MarkedView</string>
+			<key>productName</key>
+			<string>MarkedView</string>
+			<key>productReference</key>
+			<string>239F8D40318CE7474243E0E2FBC2F527</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>21428FEBBF2EA8F82EFE420DCC809161</key>
+		<dict>
+			<key>fileRef</key>
+			<string>915C1132338B8C9570CECA1C9168D33E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2381E383862F7721CBDBE657F63CEE28</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DB23CD164B1102515B730521F596C655</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>239F8D40318CE7474243E0E2FBC2F527</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>MarkedView.framework</string>
+			<key>path</key>
+			<string>MarkedView.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>241EF22EB1C9088FB352CB1A58FA9773</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6217391CB8DD2F341A8FB930BBC378CA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26C2FD45896881161A66E3EB904A6ED8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>074ECE2686CAC2EB2393BF71BF4EF5A8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2AB6BED4D0822D78FE2FAD5CD890F081</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>552D02D5BA751AC2E8790D2811D496CA</string>
+				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2FDBA9758309F674D54FD7AF2175E673</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30C8540355C8BE138ECD0007AD181E0C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5BCC2FEE5765D8F37C821BF7D5D2D710</string>
+				<string>3423690F75305E245ABF2854BF457123</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3423690F75305E245ABF2854BF457123</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A5D9A375C33FC94BB9DAF9EE579000B5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MarkedView/MarkedView-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MarkedView/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MarkedView/MarkedView.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>MarkedView</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>353CE21374505C7613BBF891A6D1CE94</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>367021E21B893BB3D29C22A942AA2BE1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FB8C9CAD1ACF02D07B788E7B8DD74D60</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3D6CD1A540DE08B856FD04FE5D6D6900</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MarkedView-MarkedView</string>
+			<key>target</key>
+			<string>97A0C6062FC63503D45722C756890590</string>
+			<key>targetProxy</key>
+			<string>474F8983A8860CAED3E59CB336FCB064</string>
+		</dict>
+		<key>3E4E89230EF59BC255123B67864ACF77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>42672D7061BE04C347CF5A1104B8CFA0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43DFC0CB8075A29E880D54DD41789255</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>45CCFE388E2535D366EF2AFF7A6CFBFE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FEE8E9BCDDFD0600498C9FEF4B1AB137</string>
+				<string>58ECDB38DEA5BD6B6ECF931229AD5924</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>464C9C9B3E352E7BE0F64333070F6641</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7943A8C4FB0B1A3D32F46608A94A8412</string>
+				<string>9EEFD12D097EAD2B31112053B770C164</string>
+				<string>42672D7061BE04C347CF5A1104B8CFA0</string>
+				<string>EC69EC85027AA61C5F522A1C214B64E1</string>
+				<string>8D182BEDE6DA2E82344F4892D1B5C8B2</string>
+				<string>470B40F9DD46B4821C066A367F750347</string>
+				<string>AD346F6202996DAADB90513B407FE025</string>
+				<string>EFF120914501F6FB5C0437E84EE9B915</string>
+				<string>43DFC0CB8075A29E880D54DD41789255</string>
+				<string>7098384D0E5882248915FF85840D5134</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-MarkedView_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-MarkedView_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>470B40F9DD46B4821C066A367F750347</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>474F8983A8860CAED3E59CB336FCB064</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>97A0C6062FC63503D45722C756890590</string>
+			<key>remoteInfo</key>
+			<string>MarkedView-MarkedView</string>
+		</dict>
+		<key>480144F862D7A7E846BEFED36D869E78</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DBD8F90E4606AA0E47E02A351D1661A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>4917B24B5037A9528C0B6B71FEF41F02</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>077FF6540777612A15A24189824A11F9</string>
+				<string>10BE3F88834A36180FFBFCF7878DF66D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>4B4B60DCE88CC5D0B902859A91D0B22E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>464C9C9B3E352E7BE0F64333070F6641</string>
+				<string>1313EB6D98D17494C7A4CC924CD2BD9C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>552D02D5BA751AC2E8790D2811D496CA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>57E4733012269440750EC9C6C8E7174E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>45CCFE388E2535D366EF2AFF7A6CFBFE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>BF8695192E606AD92300CCA16C4AE4CE</string>
+				<string>01A02F4C72DE897919A2E49F062C98AD</string>
+				<string>241EF22EB1C9088FB352CB1A58FA9773</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>EB42C13BCE26CAD113335C603FE08E19</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-MarkedView_Example</string>
+			<key>productName</key>
+			<string>Pods-MarkedView_Example</string>
+			<key>productReference</key>
+			<string>7535390C9DA96782916EE5CDF7E33384</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>58ECDB38DEA5BD6B6ECF931229AD5924</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7098384D0E5882248915FF85840D5134</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_MarkedView_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5B5C08CDD0A197D329C30E11D3837346</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>83519E15C128C7D30819E6A0B5C02371</string>
+				<string>676A24B412B4DB898E1022A9E28F606F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5BCC2FEE5765D8F37C821BF7D5D2D710</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A5D9A375C33FC94BB9DAF9EE579000B5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MarkedView/MarkedView-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MarkedView/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MarkedView/MarkedView.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MarkedView</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5CBD7BA0060063E75A0A9585F4A7862F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_MarkedView_Tests.framework</string>
+			<key>path</key>
+			<string>Pods_MarkedView_Tests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>61347B242C544544663F1E27A2AE792B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6217391CB8DD2F341A8FB930BBC378CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EFF120914501F6FB5C0437E84EE9B915</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>676A24B412B4DB898E1022A9E28F606F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>84DE44FA32AC6A8FAEF29965719A3000</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Tests/Pods-MarkedView_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_MarkedView_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6B4BD9A6F6D7CD87064DDB86083CE467</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>61347B242C544544663F1E27A2AE792B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7098384D0E5882248915FF85840D5134</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>742A8147A3B1A1E185C2816C27C87E9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7535390C9DA96782916EE5CDF7E33384</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_MarkedView_Example.framework</string>
+			<key>path</key>
+			<string>Pods_MarkedView_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7943A8C4FB0B1A3D32F46608A94A8412</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B04AF98AF99FA851C3068EDDC714276</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>MarkedView.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>2381E383862F7721CBDBE657F63CEE28</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>C4527E0B0A13D55AD422DCE13444C930</string>
+				<string>4B4B60DCE88CC5D0B902859A91D0B22E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8006E10E2C1F4271A20485CCB1359C0F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0C7FEA571EEE3129F60D9C2AB64D2E84</string>
+				<string>7B04AF98AF99FA851C3068EDDC714276</string>
+				<string>A5D9A375C33FC94BB9DAF9EE579000B5</string>
+				<string>96AA6E1D350E8028813DAC6FF775BDB6</string>
+				<string>8BB7C0818EA9FA367CB0C03511C6D137</string>
+				<string>AD28B64EA5B05285636986FE74A69677</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/MarkedView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>806C63C454DC1DFFFE9547D48C0193FB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>99DA627DE874995D2056C745CF707416</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>813C8A1820FD8F7F98B6618C73237DBB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83519E15C128C7D30819E6A0B5C02371</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A22CE3496213251EC3A38FEA7D79A60C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Tests/Pods-MarkedView_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_MarkedView_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>84DE44FA32AC6A8FAEF29965719A3000</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8505BD4B5C569E400D66DB4FF728EE9D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>1BC8C04B5E3F698D98E66F2937E674F7</string>
+			<key>remoteInfo</key>
+			<string>MarkedView</string>
+		</dict>
+		<key>8AD471F06A39CF3A63F43714A20C2AAB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MarkedView</string>
+			<key>target</key>
+			<string>1BC8C04B5E3F698D98E66F2937E674F7</string>
+			<key>targetProxy</key>
+			<string>C6030BACB34932128019E6A970D22E31</string>
+		</dict>
+		<key>8BB7C0818EA9FA367CB0C03511C6D137</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MarkedView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CBCBFE30FA745152239BCC3116E9668</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD28B64EA5B05285636986FE74A69677</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8D182BEDE6DA2E82344F4892D1B5C8B2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>915C1132338B8C9570CECA1C9168D33E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>WKMarkedView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96AA6E1D350E8028813DAC6FF775BDB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MarkedView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9764236D6236635FDA989B5FFFC3F91E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>97A0C6062FC63503D45722C756890590</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>4917B24B5037A9528C0B6B71FEF41F02</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B5628446D2E930F36B4F2AE5950185B8</string>
+				<string>353CE21374505C7613BBF891A6D1CE94</string>
+				<string>BB6DD53DBA6CF16B75D733F00617482A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MarkedView-MarkedView</string>
+			<key>productName</key>
+			<string>MarkedView-MarkedView</string>
+			<key>productReference</key>
+			<string>A0331FC125DEE28AD95DDD69F6588BFC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>99DA627DE874995D2056C745CF707416</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A0331FC125DEE28AD95DDD69F6588BFC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C44B44E5BD9456A9EFA811BD96AC439</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F44C308BE300D3D7EA6D4D9099C76556</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9EEFD12D097EAD2B31112053B770C164</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A0331FC125DEE28AD95DDD69F6588BFC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>MarkedView.bundle</string>
+			<key>path</key>
+			<string>MarkedView.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A22CE3496213251EC3A38FEA7D79A60C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5D9A375C33FC94BB9DAF9EE579000B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>MarkedView.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD28B64EA5B05285636986FE74A69677</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MarkedView-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD346F6202996DAADB90513B407FE025</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AEE01A60D87AE6B31539786539AE8643</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D182BEDE6DA2E82344F4892D1B5C8B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B5628446D2E930F36B4F2AE5950185B8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B7EB6C92278CD6EA679D602D3332B03C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>074ECE2686CAC2EB2393BF71BF4EF5A8</string>
+				<string>F4ACC6E13715EC4615A804F7DB6644FE</string>
+				<string>915C1132338B8C9570CECA1C9168D33E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BB6DD53DBA6CF16B75D733F00617482A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BD73EF419DCDF750BB617B96F58A8E51</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8CBCBFE30FA745152239BCC3116E9668</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E4E89230EF59BC255123B67864ACF77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF8695192E606AD92300CCA16C4AE4CE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AEE01A60D87AE6B31539786539AE8643</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C13ACFF857DE7CA5D853D620974FBCB8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4527E0B0A13D55AD422DCE13444C930</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A0331FC125DEE28AD95DDD69F6588BFC</string>
+				<string>239F8D40318CE7474243E0E2FBC2F527</string>
+				<string>7535390C9DA96782916EE5CDF7E33384</string>
+				<string>5CBD7BA0060063E75A0A9585F4A7862F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6030BACB34932128019E6A970D22E31</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>1BC8C04B5E3F698D98E66F2937E674F7</string>
+			<key>remoteInfo</key>
+			<string>MarkedView</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>C4527E0B0A13D55AD422DCE13444C930</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>1BC8C04B5E3F698D98E66F2937E674F7</string>
+				<string>97A0C6062FC63503D45722C756890590</string>
+				<string>57E4733012269440750EC9C6C8E7174E</string>
+				<string>19EF38CA8C8F6E4B6DD230BD69E77BFF</string>
+			</array>
+		</dict>
+		<key>DB23CD164B1102515B730521F596C655</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E2F29040BBB03CF660ACD19888E7CC21</string>
+				<string>8006E10E2C1F4271A20485CCB1359C0F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MarkedView</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DBD8F90E4606AA0E47E02A351D1661A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Tests-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E2F29040BBB03CF660ACD19888E7CC21</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B7EB6C92278CD6EA679D602D3332B03C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pod</string>
+			<key>path</key>
+			<string>Pod</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EB42C13BCE26CAD113335C603FE08E19</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MarkedView</string>
+			<key>target</key>
+			<string>1BC8C04B5E3F698D98E66F2937E674F7</string>
+			<key>targetProxy</key>
+			<string>8505BD4B5C569E400D66DB4FF728EE9D</string>
+		</dict>
+		<key>EC69EC85027AA61C5F522A1C214B64E1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFF120914501F6FB5C0437E84EE9B915</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-MarkedView_Example-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F44C308BE300D3D7EA6D4D9099C76556</key>
+		<dict>
+			<key>fileRef</key>
+			<string>813C8A1820FD8F7F98B6618C73237DBB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F4ACC6E13715EC4615A804F7DB6644FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>UIMarkedView.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB8C9CAD1ACF02D07B788E7B8DD74D60</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FEE8E9BCDDFD0600498C9FEF4B1AB137</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>43DFC0CB8075A29E880D54DD41789255</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_MarkedView_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>

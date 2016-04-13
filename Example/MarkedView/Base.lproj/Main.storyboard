@@ -1,65 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7Os-o6-TUX">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Web Sample Marked View-->
-        <scene sceneID="8rT-gk-0lp">
-            <objects>
-                <viewController storyboardIdentifier="UIWeb" id="tZD-c4-AzT" customClass="UIWebSampleMarkedView" customModule="MarkedView_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lsi-qO-dDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="igh-BB-R1e"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2l6-nr-UwU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkN-Cf-Cg4" customClass="UIMarkedView" customModule="MarkedView_Example" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="dkN-Cf-Cg4" firstAttribute="leading" secondItem="2l6-nr-UwU" secondAttribute="leading" id="4Zc-oX-w3K"/>
-                            <constraint firstItem="dkN-Cf-Cg4" firstAttribute="top" secondItem="lsi-qO-dDJ" secondAttribute="bottom" id="As6-Zq-mWa"/>
-                            <constraint firstAttribute="trailing" secondItem="dkN-Cf-Cg4" secondAttribute="trailing" id="RnU-mS-buA"/>
-                            <constraint firstItem="igh-BB-R1e" firstAttribute="top" secondItem="dkN-Cf-Cg4" secondAttribute="bottom" id="ef5-Ym-H6S"/>
-                        </constraints>
-                    </view>
-                    <extendedEdge key="edgesForExtendedLayout"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="mdView" destination="dkN-Cf-Cg4" id="Yqx-ax-DQ1"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0mZ-32-HKR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="188" y="320"/>
-        </scene>
-        <!--Web Sample Marked View-->
-        <scene sceneID="C30-iJ-GNl">
-            <objects>
-                <viewController storyboardIdentifier="WKWeb" id="88s-Dy-aHG" customClass="WKWebSampleMarkedView" customModule="MarkedView_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NfD-6P-Z8U"/>
-                        <viewControllerLayoutGuide type="bottom" id="eMY-8l-Vhp"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CL7-lJ-VVt">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DjZ-f0-wzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="188" y="959"/>
-        </scene>
         <!--Main View Controller-->
         <scene sceneID="66V-cG-cuo">
             <objects>
@@ -75,14 +20,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm7-Js-8RN">
                                 <rect key="frame" x="116" y="302" width="88" height="30"/>
                                 <state key="normal" title="WKWebView"/>
-                                <connections>
-                                    <segue destination="88s-Dy-aHG" kind="show" id="D94-iZ-jMn">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MarkedView Sampler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWe-fG-8nu">
-                                <rect key="frame" x="62" y="92" width="196" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MarkedView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWe-fG-8nu">
+                                <rect key="frame" x="65" y="92" width="190" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="gVp-JR-GrQ"/>
                                 </constraints>
@@ -93,11 +33,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5T-id-Wji">
                                 <rect key="frame" x="121" y="210" width="78" height="30"/>
                                 <state key="normal" title="UIWebView"/>
-                                <connections>
-                                    <segue destination="tZD-c4-AzT" kind="show" id="g2L-2k-8XQ">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -108,7 +43,6 @@
                             <constraint firstItem="r5T-id-Wji" firstAttribute="centerX" secondItem="Ff7-YV-yul" secondAttribute="centerX" id="RqY-Zg-dYM"/>
                             <constraint firstItem="vWe-fG-8nu" firstAttribute="centerX" secondItem="Ff7-YV-yul" secondAttribute="centerX" id="hPy-nO-mdB"/>
                             <constraint firstItem="r5T-id-Wji" firstAttribute="top" secondItem="vWe-fG-8nu" secondAttribute="bottom" constant="85" id="qPV-sd-A4Z"/>
-                            <constraint firstItem="vWe-fG-8nu" firstAttribute="leading" secondItem="Ff7-YV-yul" secondAttribute="leadingMargin" constant="46" id="zfH-K8-jUF"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

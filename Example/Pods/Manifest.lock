@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MarkedView: f9ec5efcbff8d4274991155aab52203de6f36f69
+  MarkedView: d66d2c7ff25d7e45b65f750f7f61f1e6450eadad
 
 COCOAPODS: 0.39.0

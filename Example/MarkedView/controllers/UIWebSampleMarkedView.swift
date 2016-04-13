@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MarkedView
 
 class UIWebSampleMarkedView: UIViewController {
     
