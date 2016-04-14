@@ -58,7 +58,8 @@ public class UIMarkedView: UIView {
         )
         
         // load local HTML file
-        let path = NSBundle.mainBundle().pathForResource("md_preview", ofType:"html")
+//        let path = NSBundle.mainBundle().pathForResource("md_preview", ofType:"html")
+        let path = NSBundle.mainBundle().pathForResource("MarkedView", ofType:"bundle")
         let requestHtml = NSURLRequest(URL: NSURL.fileURLWithPath(path!))
         mdView.loadRequest(requestHtml)
     }
