@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for MarkedView */,
+				607FACD21AFB9204008FA782 /* MarkedViewDemo */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BB275B54C5DAD6B3D03DDF25 /* Pods */,
@@ -103,7 +103,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for MarkedView */ = {
+		607FACD21AFB9204008FA782 /* MarkedViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				893CB2681CBA87FF00E10DEE /* controllers */,
@@ -113,7 +113,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for MarkedView";
+			name = MarkedViewDemo;
 			path = MarkedView;
 			sourceTree = "<group>";
 		};

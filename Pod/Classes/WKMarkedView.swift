@@ -13,8 +13,7 @@ public class WKMarkedView: UIView {
     
     private var webView: WKWebView!
     private var mdContents: String?
-
-    let requestHtml = NSURLRequest(URL: NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("md_preview", ofType:"html")!))
+    private var requestHtml: NSURLRequest?
 
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -29,7 +28,11 @@ public class WKMarkedView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func initView() {        
+    func initView() {
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let path = bundle.pathForResource("MarkedView.bundle/md_preview", ofType:"html")
+        requestHtml = NSURLRequest(URL: NSURL.fileURLWithPath(path!))
+        
         // Disables pinch to zoom
         let source: String = "var meta = document.createElement('meta');"
             + "meta.name = 'viewport';"
@@ -71,8 +74,11 @@ public class WKMarkedView: UIView {
      - parameter mdText: markdown text
      */
     public func toRepresentation(mdText: String?) {
+        guard let url = requestHtml else {
+            return;
+        }
         mdContents = mdText
-        webView.loadRequest(requestHtml)
+        webView.loadRequest(url)
     }
 
 }

@@ -16,6 +16,7 @@ class UIWebSampleMarkedView: UIViewController {
         let vc = MainViewController()
         
         let mdView = UIMarkedView()
+        self.view = mdView
         mdView.toRepresentation(vc.dummyContents)
         
     }

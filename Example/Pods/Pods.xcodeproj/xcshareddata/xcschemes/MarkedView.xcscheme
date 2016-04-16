@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6FC7524FAED045CB8EFD09F9'
+               BlueprintIdentifier = 'BA0885B5A83701C55BDC0D5E'
                BlueprintName = 'MarkedView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MarkedView.framework'>
