@@ -16,6 +16,9 @@
 		78E0847CA3C2DD3D639695F6 /* Pods_MarkedView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323B000838FA6A78F40E8A40 /* Pods_MarkedView_Tests.framework */; };
 		893CB26B1CBA882700E10DEE /* UIWebSampleMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893CB2691CBA882700E10DEE /* UIWebSampleMarkedView.swift */; };
 		893CB26C1CBA882700E10DEE /* WKWebSampleMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893CB26A1CBA882700E10DEE /* WKWebSampleMarkedView.swift */; };
+		89DE9E0E1CC2881400D3A43A /* sample.md in Sources */ = {isa = PBXBuildFile; fileRef = 89DE9E0D1CC2881400D3A43A /* sample.md */; };
+		89DE9E0F1CC2978B00D3A43A /* sample.md in Resources */ = {isa = PBXBuildFile; fileRef = 89DE9E0D1CC2881400D3A43A /* sample.md */; };
+		89DE9E111CC29AC300D3A43A /* sample_sc.png in Resources */ = {isa = PBXBuildFile; fileRef = 89DE9E101CC29AC300D3A43A /* sample_sc.png */; };
 		EEC1408B9FBE3FEF2F61CA89 /* Pods_MarkedView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3CE3BC7E3B409C0964FDF /* Pods_MarkedView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		893CB2691CBA882700E10DEE /* UIWebSampleMarkedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebSampleMarkedView.swift; sourceTree = "<group>"; };
 		893CB26A1CBA882700E10DEE /* WKWebSampleMarkedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebSampleMarkedView.swift; sourceTree = "<group>"; };
+		89DE9E0D1CC2881400D3A43A /* sample.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sample.md; sourceTree = "<group>"; };
+		89DE9E101CC29AC300D3A43A /* sample_sc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_sc.png; sourceTree = "<group>"; };
 		A61629B24CB9FF687C066251 /* Pods-MarkedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkedView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DCBC3074E186C6F1C33215A6 /* Pods-MarkedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkedView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EE2B0E12D4459BB3697D1BC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -112,6 +117,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				89DE9E0D1CC2881400D3A43A /* sample.md */,
+				89DE9E101CC29AC300D3A43A /* sample_sc.png */,
 			);
 			name = MarkedViewDemo;
 			path = MarkedView;
@@ -260,7 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DE9E0F1CC2978B00D3A43A /* sample.md in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				89DE9E111CC29AC300D3A43A /* sample_sc.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -375,6 +384,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				89DE9E0E1CC2881400D3A43A /* sample.md in Sources */,
 				893CB26B1CBA882700E10DEE /* UIWebSampleMarkedView.swift in Sources */,
 				893CB26C1CBA882700E10DEE /* WKWebSampleMarkedView.swift in Sources */,
 			);
@@ -506,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarkedView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -519,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarkedView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

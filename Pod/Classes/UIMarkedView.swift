@@ -63,14 +63,26 @@ public class UIMarkedView: UIView {
         mdView.loadRequest(requestHtml)
     }
     
-    
     /**
      To set the text to display
      
      - parameter mdText: markdown text
      */
-    public func toRepresentation(mdText: String?) {
+    public func textToMark(mdText: String?) {
         mdContents = mdText
+    }
+
+    /**
+     Load from markdown file
+     
+     - parameter filePath: markdown file path
+     */
+    public func loadFile(filePath: String?) {
+        guard let mdData = NSData(contentsOfFile: filePath!) else {
+            return
+        }
+        let contents = String(NSString(data: mdData, encoding: NSUTF8StringEncoding)!)
+        mdContents = contents
     }
 
 }

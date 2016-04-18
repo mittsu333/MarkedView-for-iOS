@@ -10,8 +10,6 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    let dummyContents = "# MarkedView Example\n* UIWebView\n* WKWebView"
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }

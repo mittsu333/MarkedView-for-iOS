@@ -13,12 +13,15 @@ class WKWebSampleMarkedView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let vc = MainViewController()
+        let path = NSBundle.mainBundle().pathForResource("sample", ofType: "md")!
+        guard let data = NSData(contentsOfFile: path) else {
+            return
+        }
+        let contents = String(NSString(data: data, encoding: NSUTF8StringEncoding)!)
         
         let wkWebView = WKMarkedView()
         self.view = wkWebView        
-        wkWebView.toRepresentation(vc.dummyContents)
+        wkWebView.textToMark(contents)
     }
     
 }

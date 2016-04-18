@@ -69,18 +69,38 @@ public class WKMarkedView: UIView {
     }
     
     /**
+     Load from markdown file
+     
+     - parameter filePath: markdown file path
+     */
+    public func loadFile(filePath: String?) {
+        guard let mdData = NSData(contentsOfFile: filePath!) else {
+            return
+        }
+        textToMark(String().data2String(mdData))
+    }
+    
+    /**
      To set the text to display
      
      - parameter mdText: markdown text
      */
-    public func toRepresentation(mdText: String?) {
-        guard let url = requestHtml else {
+    public func textToMark(mdText: String?) {
+        guard let url = requestHtml, let contents = mdText else {
             return;
         }
-        mdContents = mdText
+        mdContents = toMarkdownFormat(contents)
         webView.loadRequest(url)
     }
-
+    
+    private func toMarkdownFormat(contents: String) -> String {
+        let conversion = ConversionMDFormat();
+        let imgChanged = conversion.imgToBase64(contents)
+        return conversion.escapeForText(imgChanged)
+//        let escText = conversion.escapeForText(contents)
+//        return conversion.imgToBase64(escText)
+    }
+    
 }
 
 // MARK: - <#WKNavigationDelegate#>
@@ -91,12 +111,7 @@ extension WKMarkedView: WKNavigationDelegate {
         guard let contents = mdContents else {
             return;
         }
-        
-        // To escape to handle \n and ' in the script
-        var escText = contents.stringByReplacingOccurrencesOfString("\n", withString: "\\n")
-        escText = escText.stringByReplacingOccurrencesOfString("'", withString: "\\'")
-        
-        let script = "preview('\(escText)');"
+        let script = "preview('\(contents)');"
         webView.evaluateJavaScript(script, completionHandler: { (html, error) -> Void in } )
     }
     
