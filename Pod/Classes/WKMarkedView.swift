@@ -97,8 +97,6 @@ public class WKMarkedView: UIView {
         let conversion = ConversionMDFormat();
         let imgChanged = conversion.imgToBase64(contents)
         return conversion.escapeForText(imgChanged)
-//        let escText = conversion.escapeForText(contents)
-//        return conversion.imgToBase64(escText)
     }
     
 }

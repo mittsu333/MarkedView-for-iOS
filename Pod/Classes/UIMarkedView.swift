@@ -64,15 +64,6 @@ public class UIMarkedView: UIView {
     }
     
     /**
-     To set the text to display
-     
-     - parameter mdText: markdown text
-     */
-    public func textToMark(mdText: String?) {
-        mdContents = mdText
-    }
-
-    /**
      Load from markdown file
      
      - parameter filePath: markdown file path
@@ -81,8 +72,25 @@ public class UIMarkedView: UIView {
         guard let mdData = NSData(contentsOfFile: filePath!) else {
             return
         }
-        let contents = String(NSString(data: mdData, encoding: NSUTF8StringEncoding)!)
-        mdContents = contents
+        textToMark(String().data2String(mdData))
+    }
+    
+    /**
+     To set the text to display
+     
+     - parameter mdText: markdown text
+     */
+    public func textToMark(mdText: String?) {
+        guard let contents = mdText else {
+            return;
+        }
+        mdContents = toMarkdownFormat(contents)
+    }
+    
+    private func toMarkdownFormat(contents: String) -> String {
+        let conversion = ConversionMDFormat();
+        let imgChanged = conversion.imgToBase64(contents)
+        return conversion.escapeForText(imgChanged)
     }
 
 }
@@ -96,11 +104,7 @@ extension UIMarkedView: UIWebViewDelegate {
             return;
         }
         
-        // To escape to handle \n and ' in the script
-        var escText = contents.stringByReplacingOccurrencesOfString("\n", withString: "\\n")
-        escText = escText.stringByReplacingOccurrencesOfString("'", withString: "\\'")
-        
-        let script = "preview('\(escText)');"
+        let script = "preview('\(contents)');"
         mdView.stringByEvaluatingJavaScriptFromString(script)
     }
     
