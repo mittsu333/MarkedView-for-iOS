@@ -1,14 +1,7 @@
 ## MarkedView Example
 ---
 
-* UIMarkedView
-    * UIWebView base
-
-
-* WKMarkedView
-    * WKWebView base
-
-![sample_sc](./sample_sc.png)
+![sample_sc](./GitHub-Mark-120px-plus.png)
 
 
 ## Introduction
@@ -16,39 +9,41 @@
 
 The MarkedView is the markdown text viewer.
 
+select the best one from UIWebview or WKWebview.
+
+* UIMarkedView
+    * UIWebView base
+
+
+* WKMarkedView
+    * WKWebView base
+
 
 ## Usage
 ---
 
-The same process except the initialization
+The same process except the initialization.
+
+Call is available from any text from any file .
 
 ```
-// WKWebView base
-
 import MarkedView
 
 ・・・
 
+// WKWebView base
 let mdView = WKMarkedView()
 // view set
 self.view = mdView
-// Set Markdown text
-mdView.toMarked(contents)
-```
+
+// set Markdown text pattern
+mdView.textToMark(contents)
+
+// or load Markdown file pattern
+// mdView.loadFile(filePath)
 
 ```
-// UIWebView base
 
-import MarkedView
-
-・・・
-
-let mdView = UIMarkedView()
-// view set
-self.view = mdView
-// Set Markdown text
-mdView.toMarked(contents)
-```
 
 ## Installation
 ---

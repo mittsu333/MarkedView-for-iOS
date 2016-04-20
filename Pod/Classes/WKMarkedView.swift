@@ -2,8 +2,7 @@
 //  WKMarkedView.swift
 //  Markdown preview for WKWebView
 //
-//  Created by mittu on 2016/02/21.
-//  Copyright © 2016年 mittu. All rights reserved.
+//  Created by mittsu on 2016/04/19.
 //
 
 import UIKit

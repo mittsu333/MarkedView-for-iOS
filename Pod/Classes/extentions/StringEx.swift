@@ -2,7 +2,7 @@
 //  StringEx.swift
 //  Pods
 //
-//  Created by mittu on 2016/04/19.
+//  Created by mittsu on 2016/04/19.
 //
 //
 
@@ -15,7 +15,7 @@ extension String {
     }
     
     func data2String(data: NSData) -> String {
-        return String(NSString(data: data, encoding: NSUTF8StringEncoding))
+        return String(NSString(data: data, encoding: NSUTF8StringEncoding)!)
     }
     
     func substringWithRange(range: NSRange) -> String {
@@ -32,6 +32,11 @@ extension String {
     
     var lastPathComponent: String {
         return str2Ns().lastPathComponent
+    }
+    
+    var urlPatternCheck: Bool {
+        return str2Ns().hasPrefix("http://")
+            || str2Ns().hasPrefix("https://")
     }
     
     var pathExtensionCheck: Bool {

@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="-271" y="603"/>
         </scene>
-        <!--Web Sample Marked View-->
+        <!--Marked Controller-->
         <scene sceneID="q55-6f-dug">
             <objects>
-                <viewController storyboardIdentifier="WKSample" id="RgO-p1-lWV" customClass="WKWebSampleMarkedView" customModule="MarkedView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WKSample" id="RgO-p1-lWV" customClass="WKMarkedController" customModule="MarkedView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z2N-5h-y39"/>
                         <viewControllerLayoutGuide type="bottom" id="h9R-c5-7dA"/>
@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="176" y="953"/>
         </scene>
-        <!--Web Sample Marked View-->
+        <!--Marked Controller-->
         <scene sceneID="TfT-3P-SVa">
             <objects>
-                <viewController storyboardIdentifier="UIWebSample" id="Po5-5q-1jp" customClass="UIWebSampleMarkedView" customModule="MarkedView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIWebSample" id="Po5-5q-1jp" customClass="UIMarkedController" customModule="MarkedView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4ZB-mz-IXR"/>
                         <viewControllerLayoutGuide type="bottom" id="ZLc-n5-cGC"/>

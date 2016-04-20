@@ -2,8 +2,7 @@
 //  MainViewController.swift
 //  MarkedView
 //
-//  Created by mittsu on 04/10/2016.
-//  Copyright (c) 2016 mittsu. All rights reserved.
+//  Created by mittsu on 2016/04/19.
 //
 
 import UIKit

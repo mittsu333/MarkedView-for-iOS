@@ -2,8 +2,7 @@
 //  UIMarkedView.swift
 //  Markdown preview for UIWebView
 //
-//  Created by mittu on 2016/02/21.
-//  Copyright © 2016年 mittu. All rights reserved.
+//  Created by mittsu on 2016/04/19.
 //
 
 import UIKit
@@ -82,7 +81,7 @@ public class UIMarkedView: UIView {
      */
     public func textToMark(mdText: String?) {
         guard let contents = mdText else {
-            return;
+            return
         }
         mdContents = toMarkdownFormat(contents)
     }

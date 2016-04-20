@@ -2,7 +2,7 @@
 //  UIViewEx.swift
 //  Pods
 //
-//  Created by mittu on 2016/04/19.
+//  Created by mittsu on 2016/04/19.
 //
 //
 

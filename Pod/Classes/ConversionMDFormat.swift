@@ -2,8 +2,7 @@
 //  ConversionMDFormat.swift
 //  Pods
 //
-//  Created by mittu on 2016/04/18.
-//
+//  Created by mittsu on 2016/04/19.
 //
 
 import Foundation
@@ -35,7 +34,7 @@ internal class ConversionMDFormat {
             let range = result.rangeAtIndex(result.numberOfRanges - 1)
             let imgPath = mdText.substringWithRange(range)
             
-            if !imgPath.pathExtensionCheck {
+            if !imgPath.pathExtensionCheck || imgPath.urlPatternCheck {
                 continue
             }
             let image = UIImage(named: imgPath.getFileName)!

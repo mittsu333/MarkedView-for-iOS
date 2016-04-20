@@ -1,15 +1,13 @@
 //
-//  WKWebSampleMarkedView.swift
-//  GravBlog
+//  WKMarkedController.swift
 //
-//  Created by mittu on 2016/03/05.
-//  Copyright © 2016年 takeshi tokumitsu. All rights reserved.
+//  Created by mittsu on 2016/04/19.
 //
 
 import UIKit
 import MarkedView
 
-class WKWebSampleMarkedView: UIViewController {
+class WKMarkedController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
