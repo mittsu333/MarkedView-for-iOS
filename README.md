@@ -1,13 +1,11 @@
 ## MarkedView Example
 
----
 
 ![img_gif](https://github.com/mittsuu/MarkedView-for-iOS/blob/master/markedview.gif)
 
 
 ## Introduction
 
----
 
 The MarkedView is the markdown text viewer.
 
@@ -23,7 +21,6 @@ select the best one from UIWebview or WKWebview.
 
 ## Usage
 
----
 
 The same process except the initialization.
 
@@ -50,7 +47,6 @@ mdView.textToMark(contents)
 
 ## Installation
 
----
 
 MarkedView is available through [CocoaPods](https://cocoapods.org/).
 
@@ -69,6 +65,5 @@ $ pod install
 
 ## License
 
----
 
 MarkedView is available under the MIT license. See the LICENSE file for more info.
