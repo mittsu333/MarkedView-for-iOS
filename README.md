@@ -1,29 +1,67 @@
-# MarkedView
+## MarkedView Example
+---
 
-[![CI Status](http://img.shields.io/travis/mittsu/MarkedView.svg?style=flat)](https://travis-ci.org/mittsu/MarkedView)
-[![Version](https://img.shields.io/cocoapods/v/MarkedView.svg?style=flat)](http://cocoapods.org/pods/MarkedView)
-[![License](https://img.shields.io/cocoapods/l/MarkedView.svg?style=flat)](http://cocoapods.org/pods/MarkedView)
-[![Platform](https://img.shields.io/cocoapods/p/MarkedView.svg?style=flat)](http://cocoapods.org/pods/MarkedView)
+
+## Introduction
+---
+
+The MarkedView is the markdown text viewer.
+
+select the best one from UIWebview or WKWebview.
+
+* UIMarkedView
+* UIWebView base
+
+
+* WKMarkedView
+* WKWebView base
+
 
 ## Usage
+---
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+The same process except the initialization.
 
-## Requirements
+Call is available from any text from any file .
 
-## Installation
+```
+import MarkedView
 
-MarkedView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+・・・
 
-```ruby
-pod "MarkedView"
+// WKWebView base
+let mdView = WKMarkedView()
+// view set
+self.view = mdView
+
+// set Markdown text pattern
+mdView.textToMark(contents)
+
+// or load Markdown file pattern
+// mdView.loadFile(filePath)
+
 ```
 
-## Author
 
-mittsu, otok553@gmail.com
+## Installation
+---
+
+MarkedView is available through [CocoaPods](https://cocoapods.org/).
+
+To install it, simply add the following line to your ``` Podfile ```:
+
+
+```
+pod 'MarkedView'
+```
+
+Then run the following command:
+
+```
+$ pod install
+```
 
 ## License
+---
 
 MarkedView is available under the MIT license. See the LICENSE file for more info.
