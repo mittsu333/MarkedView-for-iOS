@@ -1,5 +1,5 @@
 PODS:
-  - MarkedView (0.1.0)
+  - MarkedView (1.0.0)
 
 DEPENDENCIES:
   - MarkedView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MarkedView: d66d2c7ff25d7e45b65f750f7f61f1e6450eadad
+  MarkedView: 736c6a3026d64025703441b4937cf4b8c531e926
 
 COCOAPODS: 0.39.0
