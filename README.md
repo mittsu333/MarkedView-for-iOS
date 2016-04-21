@@ -1,4 +1,10 @@
-## MarkedView Example
+MarkedView
+========
+
+[![Version](https://img.shields.io/cocoapods/v/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+[![License](https://img.shields.io/cocoapods/l/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+[![Platform](https://img.shields.io/cocoapods/p/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+
 
 
 ![img_gif](https://github.com/mittsuu/MarkedView-for-iOS/blob/master/markedview.gif)
@@ -26,7 +32,8 @@ The same process except the initialization.
 
 Call is available from any text from any file .
 
-```
+```swift
+// Swift
 import MarkedView
 
 ・・・
