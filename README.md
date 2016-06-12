@@ -73,6 +73,12 @@ Then run the following command:
 $ pod install
 ```
 
+## See Also
+
+* MarkedView-for-Android
+https://github.com/mittsuu/MarkedView-for-Android
+
+
 ## License
 
 
