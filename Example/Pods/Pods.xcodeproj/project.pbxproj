@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1900B49844CBFF7344C061108C813BF0 /* css in Resources */ = {isa = PBXBuildFile; fileRef = AAED69B7B5518E15B95FA83D4DD2B751 /* css */; };
 		1E607D32E99EBC058D84B81771B53EC4 /* github-gist.css in Resources */ = {isa = PBXBuildFile; fileRef = 3224FCF7535384AA2CFA9BEBC3DBC911 /* github-gist.css */; };
 		2E37EDA03CBEEE24A5B59E5F4ADCBA22 /* jquery-2.1.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 02E403D460145A515A9369878DE1351A /* jquery-2.1.4.min.js */; };
 		32E016602BC9724FCAB91D4589224A73 /* MarkedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252CB5BC718131CED948C484E9EADD48 /* MarkedView-dummy.m */; };
 		3CE1A8A5BAE2A625D65988A223DAF1F3 /* WKMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440457CBBD0211245B6E98CDBCC584E2 /* WKMarkedView.swift */; };
 		480144F862D7A7E846BEFED36D869E78 /* Pods-MarkedView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C9DC77791DF63E7F0981659B88C7A5B /* MarkedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D70D3C0B45C36A3408DFE0A388226C /* MarkedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5034B5481E42675688AD611CB622FA8A /* html in Resources */ = {isa = PBXBuildFile; fileRef = 937810B964092C4569D43F3B79FA03B3 /* html */; };
-		50E26EEC0DA8F2959BE936A1DFE1948E /* js in Resources */ = {isa = PBXBuildFile; fileRef = 40E2C3E8824D0E55991122043A59270D /* js */; };
 		57079744E91A1423916D62FB5A327EC9 /* md_preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB53785C6BB6A3508E937FCB0CA27CA /* md_preview.html */; };
 		6217391CB8DD2F341A8FB930BBC378CA /* Pods-MarkedView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		742A8147A3B1A1E185C2816C27C87E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -74,7 +71,6 @@
 		39528C6A6D90E43786D8372DACD9C1DF /* MarkedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MarkedView.modulemap; sourceTree = "<group>"; };
 		3C798EFCA432F931A943D5DD36168ADC /* bootstrap.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40E2C3E8824D0E55991122043A59270D /* js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 		42672D7061BE04C347CF5A1104B8CFA0 /* Pods-MarkedView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkedView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		440457CBBD0211245B6E98CDBCC584E2 /* WKMarkedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WKMarkedView.swift; sourceTree = "<group>"; };
@@ -92,13 +88,11 @@
 		8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkedView_Example-dummy.m"; sourceTree = "<group>"; };
 		8FDC1171DD457190B18E809E2E474F85 /* UIMarkedView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = UIMarkedView.xib; sourceTree = "<group>"; };
 		92E905A60E98112E61B4BB8EBFBEDE03 /* highlight.pack.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
-		937810B964092C4569D43F3B79FA03B3 /* html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		95828B85F1F10C6B49012BF434DA3588 /* StringEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		9764236D6236635FDA989B5FFFC3F91E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EEFD12D097EAD2B31112053B770C164 /* Pods-MarkedView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkedView_Example.modulemap"; sourceTree = "<group>"; };
 		A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAED69B7B5518E15B95FA83D4DD2B751 /* css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
 		AD346F6202996DAADB90513B407FE025 /* Pods-MarkedView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Example-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C13ACFF857DE7CA5D853D620974FBCB8 /* Pods-MarkedView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -182,7 +176,6 @@
 		412B5177EC5FE913880EB80DE1496C47 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				937810B964092C4569D43F3B79FA03B3 /* html */,
 				8E27689C2E09982AEA94A363A3B86607 /* html */,
 			);
 			path = Assets;
@@ -252,8 +245,6 @@
 		8E27689C2E09982AEA94A363A3B86607 /* html */ = {
 			isa = PBXGroup;
 			children = (
-				AAED69B7B5518E15B95FA83D4DD2B751 /* css */,
-				40E2C3E8824D0E55991122043A59270D /* js */,
 				6CB53785C6BB6A3508E937FCB0CA27CA /* md_preview.html */,
 				C050830CA59D73C6759FFDB0D15FC65F /* css */,
 				A96C5D75C38596696095F8828208E1AE /* js */,
@@ -484,13 +475,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC654E1C8B9BBB9AA0A300BB57BA1D50 /* bootstrap.css in Resources */,
-				1900B49844CBFF7344C061108C813BF0 /* css in Resources */,
 				1E607D32E99EBC058D84B81771B53EC4 /* github-gist.css in Resources */,
 				C45A807B9A8AE77B1715010B4C6B1141 /* github.css in Resources */,
 				8F6C4CEDFA8F6B76462FA78FD34B07EC /* highlight.pack.js in Resources */,
-				5034B5481E42675688AD611CB622FA8A /* html in Resources */,
 				2E37EDA03CBEEE24A5B59E5F4ADCBA22 /* jquery-2.1.4.min.js in Resources */,
-				50E26EEC0DA8F2959BE936A1DFE1948E /* js in Resources */,
 				BE21442247674873D66C66326F944F06 /* marked.js in Resources */,
 				57079744E91A1423916D62FB5A327EC9 /* md_preview.html in Resources */,
 				88996877EB7BC590C288A19D908AAC54 /* md_preview.js in Resources */,
