@@ -30,7 +30,10 @@ select the best one from UIWebview or WKWebview.
 
 The same process except the initialization.
 
-Call is available from any text from any file .
+Call is available from any text from any file.
+
+Sorry the local file is only able to display PNG image.  
+Please other image showed URL.
 
 ```swift
 // Swift

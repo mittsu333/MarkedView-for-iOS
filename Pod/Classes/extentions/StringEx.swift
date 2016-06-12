@@ -41,8 +41,8 @@ extension String {
     
     var pathExtensionCheck: Bool {
         return str2Ns().pathExtension == "png"
-            || str2Ns().pathExtension == "jpg"
-            || str2Ns().pathExtension == "jpeg"
+//            || str2Ns().pathExtension == "jpg"
+//            || str2Ns().pathExtension == "jpeg"
     }
     
     var getFileName: String {
