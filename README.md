@@ -28,12 +28,9 @@ select the best one from UIWebview or WKWebview.
 ## Usage
 
 
-The same process except the initialization.
+It is a simple module, which enable you to convert any files into initialized view.  
+※Please note that PNG is the only form of images, which correspond to MarkViewed. Sorry for the inconvenience this may have caused.
 
-Call is available from any text from any file.
-
-Sorry the local file is only able to display PNG image.  
-Please other image showed URL.
 
 ```swift
 // Swift
