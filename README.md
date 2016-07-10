@@ -29,7 +29,6 @@ select the best one from UIWebview or WKWebview.
 
 
 It is a simple module, which enable you to convert any files into initialized view.  
-※Please note that PNG is the only form of images, which correspond to MarkedView. Sorry for the inconvenience this may have caused.
 
 
 ```swift

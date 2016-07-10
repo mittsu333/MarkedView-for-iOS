@@ -67,7 +67,7 @@ internal class ConversionMDFormat {
             return nil
 
         } else {
-            var pathOpti = dataImgPath.stringByReplacingOccurrencesOfString("\n", withString: "")
+            let pathOpti = dataImgPath.stringByReplacingOccurrencesOfString("\n", withString: "")
             return pathOpti.stringByReplacingOccurrencesOfString("\r", withString: "")
         }
     }
