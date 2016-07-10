@@ -37,17 +37,39 @@ internal class ConversionMDFormat {
             if !imgPath.pathExtensionCheck || imgPath.urlPatternCheck {
                 continue
             }
-            let image = UIImage(named: imgPath.getFileName)!
-            let imageData = UIImagePNGRepresentation(image)
-            let base64String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-            let dataScPath = "data:image/png;base64," + base64String
-            var pathOpti = dataScPath.stringByReplacingOccurrencesOfString("\n", withString: "")
-            pathOpti = pathOpti.stringByReplacingOccurrencesOfString("\r", withString: "")
             
-            newMdText = newMdText.stringByReplacingOccurrencesOfString(imgPath, withString: pathOpti)
+            guard let path = type2Path(imgPath.pathExtension, imgPath: imgPath) else {
+                continue
+            }
+            newMdText = newMdText.stringByReplacingOccurrencesOfString(imgPath, withString: path)
         }
         
         return newMdText
+    }
+    
+    private func type2Path(imgExt: String!, imgPath: String!) -> String? {
+        var dataImgPath = ""
+        
+        if imgExt == "jpg" || imgExt == "jpeg" {
+            let image = UIImage(named: imgPath)!
+            let imageData = UIImageJPEGRepresentation(image, 1)
+            let base64String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+            dataImgPath = "data:image/jpg;base64," + base64String
+            
+        } else if imgExt == "png" {
+            let image = UIImage(named: imgPath)!
+            let imageData = UIImagePNGRepresentation(image)
+            let base64String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+            dataImgPath = "data:image/png;base64," + base64String            
+        }
+        
+        if dataImgPath == "" {
+            return nil
+
+        } else {
+            var pathOpti = dataImgPath.stringByReplacingOccurrencesOfString("\n", withString: "")
+            return pathOpti.stringByReplacingOccurrencesOfString("\r", withString: "")
+        }
     }
     
 }

@@ -1,11 +1,17 @@
 ## MarkedView Example
 ---
 
-![sample_sc](./GitHub-Mark-120px-plus.png)
+[![Version](https://img.shields.io/cocoapods/v/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+[![License](https://img.shields.io/cocoapods/l/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+[![Platform](https://img.shields.io/cocoapods/p/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+
+
+![sample_sc](http://tk2-212-15794.vs.sakura.ne.jp/sample/oss-imgs/marked-sample-img.png)
 
 
 ## Introduction
 ---
+
 
 The MarkedView is the markdown text viewer.
 
@@ -22,11 +28,12 @@ select the best one from UIWebview or WKWebview.
 ## Usage
 ---
 
-The same process except the initialization.
 
-Call is available from any text from any file .
+It is a simple module, which enable you to convert any files into initialized view.  
 
-```
+
+```swift
+// Swift
 import MarkedView
 
 ・・・
@@ -63,7 +70,14 @@ Then run the following command:
 $ pod install
 ```
 
-## License
+## See Also
 ---
+
+* MarkedView-for-Android  
+https://github.com/mittsuu/MarkedView-for-Android
+
+
+## License
+
 
 MarkedView is available under the MIT license. See the LICENSE file for more info.
