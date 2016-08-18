@@ -75,7 +75,16 @@ $ pod install
 https://github.com/mittsuu/MarkedView-for-Android
 
 
+## Credits
+
+This used the following open source components.
+
+[Marked](https://github.com/chjj/marked) : Markdown parser written in JavaScript
+
+[highlight.js](https://highlightjs.org/) : Syntax highlighting for the Web
+
+
 ## License
 
 
-MarkedView is available under the MIT license. See the LICENSE file for more info.
+MarkedView is available under the MIT license. See the [LICENSE](https://github.com/mittsuu/MarkedView-for-iOS/blob/master/LICENSE) file for more info.
