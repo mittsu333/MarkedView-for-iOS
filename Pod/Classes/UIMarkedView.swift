@@ -12,6 +12,7 @@ public class UIMarkedView: UIView {
     @IBOutlet weak var uiMarkedView: UIWebView!
         
     private var mdContents: String?
+    private var codeScrollDisable = false
     
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -91,7 +92,14 @@ public class UIMarkedView: UIView {
         let imgChanged = conversion.imgToBase64(contents)
         return conversion.escapeForText(imgChanged)
     }
+    
+    
+    /** option **/
 
+    public func setCodeScrollDisable() {
+        codeScrollDisable = true
+    }
+    
 }
 
 // MARK: - <#UIWebViewDelegate#>
@@ -103,7 +111,7 @@ extension UIMarkedView: UIWebViewDelegate {
             return;
         }
         
-        let script = "preview('\(contents)');"
+        let script = "preview('\(contents)', \(codeScrollDisable));"
         mdView.stringByEvaluatingJavaScriptFromString(script)
     }
     

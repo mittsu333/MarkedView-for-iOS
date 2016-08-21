@@ -14,8 +14,12 @@ class UIMarkedController: UIViewController {
         let path = NSBundle.mainBundle().pathForResource("sample", ofType: "md")!
 
         let mdView = UIMarkedView()
+        
+        // code block in scrolling be deactivated.
+        // mdView.setCodeScrollDisable()
+        
         self.view = mdView
-        mdView.loadFile(path)        
+        mdView.loadFile(path)
     }
     
 }

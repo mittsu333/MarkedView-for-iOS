@@ -18,6 +18,10 @@ class WKMarkedController: UIViewController {
         let contents = String(NSString(data: data, encoding: NSUTF8StringEncoding)!)
         
         let wkWebView = WKMarkedView()
+        
+        // code block in scrolling be deactivated.
+        // wkWebView.setCodeScrollDisable()
+        
         self.view = wkWebView        
         wkWebView.textToMark(contents)
     }

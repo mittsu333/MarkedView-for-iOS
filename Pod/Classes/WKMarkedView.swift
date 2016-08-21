@@ -13,6 +13,7 @@ public class WKMarkedView: UIView {
     private var webView: WKWebView!
     private var mdContents: String?
     private var requestHtml: NSURLRequest?
+    private var codeScrollDisable = false
 
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -98,6 +99,13 @@ public class WKMarkedView: UIView {
         return conversion.escapeForText(imgChanged)
     }
     
+    
+    /** option **/
+    
+    public func setCodeScrollDisable() {
+        codeScrollDisable = true
+    }
+    
 }
 
 // MARK: - <#WKNavigationDelegate#>
@@ -108,7 +116,7 @@ extension WKMarkedView: WKNavigationDelegate {
         guard let contents = mdContents else {
             return;
         }
-        let script = "preview('\(contents)');"
+        let script = "preview('\(contents)', \(codeScrollDisable));"
         webView.evaluateJavaScript(script, completionHandler: { (html, error) -> Void in } )
     }
     

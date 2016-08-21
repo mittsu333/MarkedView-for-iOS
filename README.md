@@ -39,13 +39,17 @@ import MarkedView
 
 // WKWebView base
 let mdView = WKMarkedView()
+
+// code block in scrolling be deactivated.
+// mdView.setCodeScrollDisable()
+
 // view set
 self.view = mdView
 
-// set Markdown text pattern
+// set Markdown text pattern ('contents' object is markdown text)
 mdView.textToMark(contents)
 
-// or load Markdown file pattern
+// load Markdown file pattern
 // mdView.loadFile(filePath)
 
 ```
