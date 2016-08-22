@@ -4,6 +4,7 @@ MarkedView
 [![Version](https://img.shields.io/cocoapods/v/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
 [![License](https://img.shields.io/cocoapods/l/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
 [![Platform](https://img.shields.io/cocoapods/p/MarkedView.svg?style=flat)](http://cocoadocs.org/docsets/MarkedView)
+[![codebeat badge](https://codebeat.co/badges/e6a0fccf-5b3a-4152-8567-69699c231bea)](https://codebeat.co/projects/github-com-mittsuu-markedview-for-ios)
 
 
 
