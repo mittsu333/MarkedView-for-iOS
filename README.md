@@ -88,6 +88,18 @@ This used the following open source components.
 
 [highlight.js](https://highlightjs.org/) : Syntax highlighting for the Web
 
+## Requirements
+
+* ~v1.0.4
+    * iOS   8.3+
+    * Swift 2.2
+    * Xcode 7.3+
+
+* v1.0.5~
+    * iOS   8.0+
+    * Swift 2.3
+    * Xcode 8.0
+
 
 ## License
 
