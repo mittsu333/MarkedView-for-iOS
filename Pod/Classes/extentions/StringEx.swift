@@ -18,7 +18,7 @@ extension String {
         return String(NSString(data: data, encoding: NSUTF8StringEncoding)!)
     }
     
-    func substringWithRange(range: NSRange) -> String {
+    func substringWithRange(range: NSRange) -> String {        
         return str2Ns().substringWithRange(range)
     }
     

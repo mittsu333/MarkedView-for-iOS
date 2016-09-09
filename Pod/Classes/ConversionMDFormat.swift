@@ -27,7 +27,7 @@ internal class ConversionMDFormat {
             print(error.localizedDescription)
             regex = nil
         }
-        let results = regex?.matchesInString(mdText, options: [], range: NSMakeRange(0, mdText.length))
+        let results = regex?.matchesInString(mdText, options:[], range:NSMakeRange(0, mdText.length))
         
         var newMdText = mdText
         for result in results! {
@@ -44,7 +44,7 @@ internal class ConversionMDFormat {
             newMdText = newMdText.stringByReplacingOccurrencesOfString(imgPath, withString: path)
         }
         
-        return newMdText
+        return newMdText!
     }
     
     private func type2Path(imgExt: String!, imgPath: String!) -> String? {

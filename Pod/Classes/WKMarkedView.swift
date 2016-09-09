@@ -29,7 +29,7 @@ public class WKMarkedView: UIView {
     }
     
     func initView() {
-        let bundle = NSBundle(forClass: self.dynamicType)
+        let bundle = NSBundle(forClass: WKMarkedView.self)
         let path = bundle.pathForResource("MarkedView.bundle/md_preview", ofType:"html")
         requestHtml = NSURLRequest(URL: NSURL.fileURLWithPath(path!))
         
@@ -116,7 +116,7 @@ extension WKMarkedView: WKNavigationDelegate {
         guard let contents = mdContents else {
             return;
         }
-        let script = "preview('\(contents)', \(codeScrollDisable));"
+        let script = "preview('\(contents)', \(setCodeScrollDisable));"
         webView.evaluateJavaScript(script, completionHandler: { (html, error) -> Void in } )
     }
     

@@ -30,7 +30,7 @@ public class UIMarkedView: UIView {
     
     func initView(){
         // Load UIMarkedView
-        let bundle = NSBundle(forClass: self.dynamicType)
+        let bundle = NSBundle(forClass: UIMarkedView.self)
         let nib = UINib(nibName: "UIMarkedView", bundle: bundle)
         let view = nib.instantiateWithOwner(self, options: nil).first as! UIView
         addSubview(view)
@@ -111,7 +111,7 @@ extension UIMarkedView: UIWebViewDelegate {
             return;
         }
         
-        let script = "preview('\(contents)', \(codeScrollDisable));"
+        let script = "preview('\(contents)', \(setCodeScrollDisable));"
         mdView.stringByEvaluatingJavaScriptFromString(script)
     }
     
