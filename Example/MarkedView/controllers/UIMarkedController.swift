@@ -11,7 +11,7 @@ class UIMarkedController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = NSBundle.mainBundle().pathForResource("sample", ofType: "md")!
+        let path = Bundle.main.path(forResource: "sample", ofType: "md")!
 
         let mdView = UIMarkedView()
         

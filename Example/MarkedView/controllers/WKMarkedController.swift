@@ -11,11 +11,11 @@ class WKMarkedController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = NSBundle.mainBundle().pathForResource("sample", ofType: "md")!
-        guard let data = NSData(contentsOfFile: path) else {
+        let path = Bundle.main.path(forResource: "sample", ofType: "md")!
+        guard let data = try? Data(contentsOf: URL(fileURLWithPath: path)) else {
             return
         }
-        let contents = String(NSString(data: data, encoding: NSUTF8StringEncoding)!)
+        let contents = String(NSString(data: data, encoding: String.Encoding.utf8.rawValue)!)
         
         let wkWebView = WKMarkedView()
         

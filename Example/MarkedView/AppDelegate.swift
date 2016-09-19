@@ -13,16 +13,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         self.createMenuView()
         
         return true
     }
     
-    private func createMenuView() {
+    fileprivate func createMenuView() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let mainViewController = storyboard.instantiateViewControllerWithIdentifier("FirstView") as! MainViewController
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: "FirstView") as! MainViewController
         
         let nvc = UINavigationController(rootViewController: mainViewController)
         

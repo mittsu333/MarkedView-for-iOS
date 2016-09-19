@@ -7,12 +7,12 @@
 
 import UIKit
 
-public class UIMarkedView: UIView {
+open class UIMarkedView: UIView {
 
     @IBOutlet weak var uiMarkedView: UIWebView!
         
-    private var mdContents: String?
-    private var codeScrollDisable = false
+    fileprivate var mdContents: String?
+    fileprivate var codeScrollDisable = false
     
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -30,19 +30,19 @@ public class UIMarkedView: UIView {
     
     func initView(){
         // Load UIMarkedView
-        let bundle = NSBundle(forClass: UIMarkedView.self)
+        let bundle = Bundle(for: UIMarkedView.self)
         let nib = UINib(nibName: "UIMarkedView", bundle: bundle)
-        let view = nib.instantiateWithOwner(self, options: nil).first as! UIView
+        let view = nib.instantiate(withOwner: self, options: nil).first as! UIView
         addSubview(view)
         
         // The size of the custom View to the same size as himself
         view.translatesAutoresizingMaskIntoConstraints = false
         let bindings = ["view": view]
-        addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[view]|",
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[view]|",
             options:NSLayoutFormatOptions(rawValue: 0),
             metrics:nil,
             views: bindings))
-        addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|[view]|",
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[view]|",
             options:NSLayoutFormatOptions(rawValue: 0),
             metrics:nil,
             views: bindings))
@@ -52,14 +52,14 @@ public class UIMarkedView: UIView {
         mdView.delegate = self
         
         // hide background
-        mdView.backgroundColor = UIColor.clearColor()
-        mdView.stringByEvaluatingJavaScriptFromString(
-            "document.documentElement.style.webkitTouchCallout = 'none';"
+        mdView.backgroundColor = UIColor.clear
+        mdView.stringByEvaluatingJavaScript(
+            from: "document.documentElement.style.webkitTouchCallout = 'none';"
         )
         
         // load local HTML file
-        let path = bundle.pathForResource("MarkedView.bundle/md_preview", ofType:"html")
-        let requestHtml = NSURLRequest(URL: NSURL.fileURLWithPath(path!))
+        let path = bundle.path(forResource: "MarkedView.bundle/md_preview", ofType:"html")
+        let requestHtml = URLRequest(url: URL(fileURLWithPath: path!))
         mdView.loadRequest(requestHtml)
     }
     
@@ -68,8 +68,8 @@ public class UIMarkedView: UIView {
      
      - parameter filePath: markdown file path
      */
-    public func loadFile(filePath: String?) {
-        guard let mdData = NSData(contentsOfFile: filePath!) else {
+    public func loadFile(_ filePath: String?) {
+        guard let mdData = try? Data(contentsOf: URL(fileURLWithPath: filePath!)) else {
             return
         }
         textToMark(String().data2String(mdData))
@@ -80,14 +80,14 @@ public class UIMarkedView: UIView {
      
      - parameter mdText: markdown text
      */
-    public func textToMark(mdText: String?) {
+    public func textToMark(_ mdText: String?) {
         guard let contents = mdText else {
             return
         }
         mdContents = toMarkdownFormat(contents)
     }
     
-    private func toMarkdownFormat(contents: String) -> String {
+    fileprivate func toMarkdownFormat(_ contents: String) -> String {
         let conversion = ConversionMDFormat();
         let imgChanged = conversion.imgToBase64(contents)
         return conversion.escapeForText(imgChanged)
@@ -96,7 +96,7 @@ public class UIMarkedView: UIView {
     
     /** option **/
 
-    public func setCodeScrollDisable() {
+    open func setCodeScrollDisable() {
         codeScrollDisable = true
     }
     
@@ -105,14 +105,14 @@ public class UIMarkedView: UIView {
 // MARK: - <#UIWebViewDelegate#>
 extension UIMarkedView: UIWebViewDelegate {
     
-    public func webViewDidFinishLoad(webView: UIWebView) {
+    public func webViewDidFinishLoad(_ webView: UIWebView) {
         
         guard let contents = mdContents, let mdView = uiMarkedView else {
             return;
         }
         
         let script = "preview('\(contents)', \(setCodeScrollDisable));"
-        mdView.stringByEvaluatingJavaScriptFromString(script)
+        mdView.stringByEvaluatingJavaScript(from: script)
     }
     
 }

@@ -14,12 +14,12 @@ extension String {
         return self as NSString
     }
     
-    func data2String(data: NSData) -> String {
-        return String(NSString(data: data, encoding: NSUTF8StringEncoding)!)
+    func data2String(_ data: Data) -> String {
+        return String(NSString(data: data, encoding: String.Encoding.utf8.rawValue)!)
     }
     
-    func substringWithRange(range: NSRange) -> String {        
-        return str2Ns().substringWithRange(range)
+    func substringWithRange(_ range: NSRange) -> String {        
+        return str2Ns().substring(with: range)
     }
     
     var length: Int {
