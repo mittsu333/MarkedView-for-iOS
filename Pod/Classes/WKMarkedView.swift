@@ -8,12 +8,12 @@
 import UIKit
 import WebKit
 
-public class WKMarkedView: UIView {
+open class WKMarkedView: UIView {
     
-    private var webView: WKWebView!
-    private var mdContents: String?
-    private var requestHtml: NSURLRequest?
-    private var codeScrollDisable = false
+    fileprivate var webView: WKWebView!
+    fileprivate var mdContents: String?
+    fileprivate var requestHtml: URLRequest?
+    fileprivate var codeScrollDisable = false
 
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -29,9 +29,9 @@ public class WKMarkedView: UIView {
     }
     
     func initView() {
-        let bundle = NSBundle(forClass: WKMarkedView.self)
-        let path = bundle.pathForResource("MarkedView.bundle/md_preview", ofType:"html")
-        requestHtml = NSURLRequest(URL: NSURL.fileURLWithPath(path!))
+        let bundle = Bundle(for: WKMarkedView.self)
+        let path = bundle.path(forResource: "MarkedView.bundle/md_preview", ofType:"html")
+        requestHtml = URLRequest(url: URL(fileURLWithPath: path!))
         
         // Disables pinch to zoom
         let source: String = "var meta = document.createElement('meta');"
@@ -40,7 +40,7 @@ public class WKMarkedView: UIView {
             + "var head = document.getElementsByTagName('head')[0];"
             + "head.appendChild(meta);"
             + "document.documentElement.style.webkitTouchCallout = 'none';";
-        let script: WKUserScript = WKUserScript(source: source, injectionTime: .AtDocumentEnd, forMainFrameOnly: true)
+        let script: WKUserScript = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         
         // Create the configuration
         let userContentController = WKUserContentController()
@@ -54,18 +54,18 @@ public class WKMarkedView: UIView {
         addSubview(webView)
         
         // The size of the custom View to the same size as himself
-        let bindings = ["view": webView]
-        addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[view]|",
+        let bindings: [String : UIView] = ["view": webView]
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[view]|",
             options:NSLayoutFormatOptions(rawValue: 0),
             metrics:nil,
             views: bindings))
-        addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|[view]|",
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[view]|",
             options:NSLayoutFormatOptions(rawValue: 0),
             metrics:nil,
             views: bindings))
         
         // Hide background
-        webView.backgroundColor = UIColor.clearColor()
+        webView.backgroundColor = UIColor.clear
     }
     
     /**
@@ -73,8 +73,8 @@ public class WKMarkedView: UIView {
      
      - parameter filePath: markdown file path
      */
-    public func loadFile(filePath: String?) {
-        guard let mdData = NSData(contentsOfFile: filePath!) else {
+    public func loadFile(_ filePath: String?) {
+        guard let mdData = try? Data(contentsOf: URL(fileURLWithPath: filePath!)) else {
             return
         }
         textToMark(String().data2String(mdData))
@@ -85,15 +85,15 @@ public class WKMarkedView: UIView {
      
      - parameter mdText: markdown text
      */
-    public func textToMark(mdText: String?) {
+    public func textToMark(_ mdText: String?) {
         guard let url = requestHtml, let contents = mdText else {
             return;
         }
         mdContents = toMarkdownFormat(contents)
-        webView.loadRequest(url)
+        webView.load(url)
     }
     
-    private func toMarkdownFormat(contents: String) -> String {
+    fileprivate func toMarkdownFormat(_ contents: String) -> String {
         let conversion = ConversionMDFormat();
         let imgChanged = conversion.imgToBase64(contents)
         return conversion.escapeForText(imgChanged)
@@ -102,7 +102,7 @@ public class WKMarkedView: UIView {
     
     /** option **/
     
-    public func setCodeScrollDisable() {
+    open func setCodeScrollDisable() {
         codeScrollDisable = true
     }
     
@@ -111,7 +111,7 @@ public class WKMarkedView: UIView {
 // MARK: - <#WKNavigationDelegate#>
 extension WKMarkedView: WKNavigationDelegate {
     
-    public func webView(webView: WKWebView, didFinishNavigation navigation: WKNavigation!) {
+    public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             
         guard let contents = mdContents else {
             return;
