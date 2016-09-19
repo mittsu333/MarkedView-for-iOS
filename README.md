@@ -65,7 +65,14 @@ To install it, simply add the following line to your ``` Podfile ```:
 
 
 ```
-pod 'MarkedView'
+// Swift 2.2
+pod 'MarkedView', '1.0.4'
+
+// Swift 2.3
+pod 'MarkedView', '1.0.5'
+
+// Swift 3.0
+pod 'MarkedView', '~> 1.1.0'
 ```
 
 Then run the following command:
@@ -90,7 +97,7 @@ This used the following open source components.
 
 ## Requirements
 
-* ~v1.0.4
+* v1.0.0 ~ v1.0.4
     * iOS   8.3+
     * Swift 2.2
     * Xcode 7.3+
@@ -98,6 +105,11 @@ This used the following open source components.
 * v1.0.5~
     * iOS   8.0+
     * Swift 2.3
+    * Xcode 8.0
+
+* v1.1.0~
+    * iOS   8.0+
+    * Swift 3.0
     * Xcode 8.0
 
 
