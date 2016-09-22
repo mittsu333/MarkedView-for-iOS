@@ -116,7 +116,7 @@ extension WKMarkedView: WKNavigationDelegate {
         guard let contents = mdContents else {
             return;
         }
-        let script = "preview('\(contents)', \(setCodeScrollDisable));"
+        let script = "preview('\(contents)', \(codeScrollDisable));"
         webView.evaluateJavaScript(script, completionHandler: { (html, error) -> Void in } )
     }
     
