@@ -111,7 +111,7 @@ extension UIMarkedView: UIWebViewDelegate {
             return;
         }
         
-        let script = "preview('\(contents)', \(setCodeScrollDisable));"
+        let script = "preview('\(contents)', \(codeScrollDisable));"
         mdView.stringByEvaluatingJavaScript(from: script)
     }
     
