@@ -65,12 +65,6 @@ To install it, simply add the following line to your ``` Podfile ```:
 
 
 ```
-// Swift 2.2
-pod 'MarkedView', '1.0.4'
-
-// Swift 2.3
-pod 'MarkedView', '1.0.5'
-
 // Swift 3.0
 pod 'MarkedView', '~> 1.1.1'
 ```
