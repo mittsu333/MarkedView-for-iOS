@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MarkedView'
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "The Markdown text web viewer."
   s.homepage         = "https://github.com/mittsuu/MarkedView-for-iOS"
   s.license          = 'MIT'

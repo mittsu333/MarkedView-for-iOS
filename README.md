@@ -72,7 +72,7 @@ pod 'MarkedView', '1.0.4'
 pod 'MarkedView', '1.0.5'
 
 // Swift 3.0
-pod 'MarkedView', '~> 1.1.0'
+pod 'MarkedView', '~> 1.1.1'
 ```
 
 Then run the following command:
