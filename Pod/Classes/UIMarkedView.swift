@@ -7,12 +7,17 @@
 
 import UIKit
 
-open class UIMarkedView: UIView {
+@objc public protocol UIMarkViewDelegate: NSObjectProtocol {
+    @objc optional func markViewRedirect(url: URL)
+}
 
+open class UIMarkedView: UIView {
+    
     @IBOutlet weak var uiMarkedView: UIWebView!
-        
+    
     fileprivate var mdContents: String?
     fileprivate var codeScrollDisable = false
+    weak open var delegate: UIMarkViewDelegate?
     
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -39,16 +44,16 @@ open class UIMarkedView: UIView {
         view.translatesAutoresizingMaskIntoConstraints = false
         let bindings = ["view": view]
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[view]|",
-            options:NSLayoutFormatOptions(rawValue: 0),
-            metrics:nil,
-            views: bindings))
+                                                      options:NSLayoutFormatOptions(rawValue: 0),
+                                                      metrics:nil,
+                                                      views: bindings))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[view]|",
-            options:NSLayoutFormatOptions(rawValue: 0),
-            metrics:nil,
-            views: bindings))
-
+                                                      options:NSLayoutFormatOptions(rawValue: 0),
+                                                      metrics:nil,
+                                                      views: bindings))
+        
         guard let mdView = uiMarkedView else { return }
-
+        
         mdView.delegate = self
         
         // hide background
@@ -95,7 +100,7 @@ open class UIMarkedView: UIView {
     
     
     /** option **/
-
+    
     open func setCodeScrollDisable() {
         codeScrollDisable = true
     }
@@ -115,4 +120,25 @@ extension UIMarkedView: UIWebViewDelegate {
         mdView.stringByEvaluatingJavaScript(from: script)
     }
     
+    public func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        switch navigationType {
+            
+        case .linkClicked:
+            guard let url = request.url else {
+                return false
+            }
+            if url.scheme == "file" {
+                return true
+            } else if url.scheme == "https" {
+                delegate?.markViewRedirect?(url: url)
+                return false
+            } else {
+                return false
+            }
+        default:
+            return true
+        }
+    }
+    
 }
+
