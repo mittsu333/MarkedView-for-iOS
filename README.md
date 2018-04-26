@@ -40,6 +40,8 @@ import MarkedView
 
 // WKWebView base
 let mdView = WKMarkedView()
+// delegate
+mdView.delegate = self
 
 // code block in scrolling be deactivated.
 // mdView.setCodeScrollDisable()
@@ -55,6 +57,48 @@ mdView.textToMark(contents)
 
 ```
 
+### Delegate
+
+* UIMarkViewDelegate  (UIMarkedView)
+
+```
+extension UIMarkedController: UIMarkViewDelegate {
+
+    func markViewRedirect(url: URL) {
+        if #available(iOS 9.0, *) {
+            let safari = SFSafariViewController(url: url)
+            self.present(safari, animated: true, completion: nil)
+
+        } else {
+            if(UIApplication.shared.canOpenURL(url)) {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+}
+```
+
+
+* WKMarkViewDelegate  (WKMarkedView)
+
+```
+extension WKMarkedController: WKMarkViewDelegate {
+
+    func markViewRedirect(url: URL) {
+        if #available(iOS 9.0, *) {
+            let safari = SFSafariViewController(url: url)
+            self.present(safari, animated: true, completion: nil)
+
+        } else {
+            if(UIApplication.shared.canOpenURL(url)) {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+}
+```
+
+
 
 ## Installation
 
@@ -66,7 +110,7 @@ To install it, simply add the following line to your ``` Podfile ```:
 
 ```
 // Swift 3.0
-pod 'MarkedView', '~> 1.1.1'
+pod 'MarkedView', '~> 1.1.2'
 ```
 
 Then run the following command:
