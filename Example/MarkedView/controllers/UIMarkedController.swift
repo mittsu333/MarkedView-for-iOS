@@ -5,6 +5,8 @@
 //
 
 import UIKit
+import SafariServices
+
 import MarkedView
 
 class UIMarkedController: UIViewController {
@@ -14,6 +16,7 @@ class UIMarkedController: UIViewController {
         let path = Bundle.main.path(forResource: "sample", ofType: "md")!
 
         let mdView = UIMarkedView()
+        mdView.delegate = self
         
         // code block in scrolling be deactivated.
         // mdView.setCodeScrollDisable()
@@ -22,4 +25,19 @@ class UIMarkedController: UIViewController {
         mdView.loadFile(path)
     }
     
+}
+
+extension UIMarkedController: UIMarkViewDelegate {
+    func markViewRedirect(url: URL) {
+        
+        if #available(iOS 9.0, *) {
+            let safari = SFSafariViewController(url: url)
+            self.present(safari, animated: true, completion: nil)
+
+        } else {
+            if(UIApplication.shared.canOpenURL(url)) {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
 }
