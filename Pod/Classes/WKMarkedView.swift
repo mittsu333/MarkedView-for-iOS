@@ -8,12 +8,17 @@
 import UIKit
 import WebKit
 
+@objc public protocol WKMarkViewDelegate: NSObjectProtocol {
+    @objc optional func markViewRedirect(url: URL)
+}
+
 open class WKMarkedView: UIView {
     
     fileprivate var webView: WKWebView!
     fileprivate var mdContents: String?
     fileprivate var requestHtml: URLRequest?
     fileprivate var codeScrollDisable = false
+    weak open var delegate: WKMarkViewDelegate?
 
     convenience init () {
         self.init(frame:CGRect.zero)
@@ -111,8 +116,24 @@ open class WKMarkedView: UIView {
 // MARK: - <#WKNavigationDelegate#>
 extension WKMarkedView: WKNavigationDelegate {
     
+    public func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Swift.Void) {
+
+        guard let url = navigationAction.request.url else {
+            decisionHandler(.cancel)
+            return;
+        }
+        if url.scheme == "file" {
+            decisionHandler(.allow)
+        } else if url.scheme == "https" {
+            delegate?.markViewRedirect?(url: url)
+            decisionHandler(.cancel)
+        } else {
+            decisionHandler(.cancel)
+        }
+    }
+    
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-            
+
         guard let contents = mdContents else {
             return;
         }
