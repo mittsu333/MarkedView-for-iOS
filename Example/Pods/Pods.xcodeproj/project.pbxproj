@@ -7,152 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E607D32E99EBC058D84B81771B53EC4 /* github-gist.css in Resources */ = {isa = PBXBuildFile; fileRef = 3224FCF7535384AA2CFA9BEBC3DBC911 /* github-gist.css */; };
-		2E37EDA03CBEEE24A5B59E5F4ADCBA22 /* jquery-2.1.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 02E403D460145A515A9369878DE1351A /* jquery-2.1.4.min.js */; };
-		32E016602BC9724FCAB91D4589224A73 /* MarkedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252CB5BC718131CED948C484E9EADD48 /* MarkedView-dummy.m */; };
-		3CE1A8A5BAE2A625D65988A223DAF1F3 /* WKMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440457CBBD0211245B6E98CDBCC584E2 /* WKMarkedView.swift */; };
-		4117DA791D8FE0EF00A2C652 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4117DA781D8FE0EF00A2C652 /* WebKit.framework */; };
-		4117DA7B1D8FE0FB00A2C652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4117DA7A1D8FE0FB00A2C652 /* UIKit.framework */; };
-		480144F862D7A7E846BEFED36D869E78 /* Pods-MarkedView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C9DC77791DF63E7F0981659B88C7A5B /* MarkedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D70D3C0B45C36A3408DFE0A388226C /* MarkedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57079744E91A1423916D62FB5A327EC9 /* md_preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB53785C6BB6A3508E937FCB0CA27CA /* md_preview.html */; };
-		6217391CB8DD2F341A8FB930BBC378CA /* Pods-MarkedView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		742A8147A3B1A1E185C2816C27C87E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7DE4E2B6D74E1F08144A415C121C53E3 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95828B85F1F10C6B49012BF434DA3588 /* StringEx.swift */; };
-		88996877EB7BC590C288A19D908AAC54 /* md_preview.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B9BD1DE67AF6556A9347E910AB632DB /* md_preview.js */; };
-		8CDAA3ABC4F6D890E29B9FB95C3E76D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		8F6C4CEDFA8F6B76462FA78FD34B07EC /* highlight.pack.js in Resources */ = {isa = PBXBuildFile; fileRef = 92E905A60E98112E61B4BB8EBFBEDE03 /* highlight.pack.js */; };
-		AC654E1C8B9BBB9AA0A300BB57BA1D50 /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 3C798EFCA432F931A943D5DD36168ADC /* bootstrap.css */; };
-		AEE01A60D87AE6B31539786539AE8643 /* Pods-MarkedView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */; };
-		B4391CA726FC3071A64E6F7B8FCB89CF /* UIMarkedView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC1171DD457190B18E809E2E474F85 /* UIMarkedView.xib */; };
-		BE21442247674873D66C66326F944F06 /* marked.js in Resources */ = {isa = PBXBuildFile; fileRef = 2D356ACBC19A489A8130D7E530FF5B5F /* marked.js */; };
-		C45A807B9A8AE77B1715010B4C6B1141 /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = 18EBDCCDF939B8AD6DF4B37D36BA5F37 /* github.css */; };
-		C865F7D48B7286EF8DE3CBBFB730BC38 /* UIMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53769754D7E62E989F23B1616CE53F15 /* UIMarkedView.swift */; };
-		EFDF03DFDC73777CFFDF713D61FFE89F /* ConversionMDFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E0CD0AF8B324F3518685653CC11EA /* ConversionMDFormat.swift */; };
-		F4354672A74D8796231A95F2DD2314D2 /* MarkedView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */; };
-		F44C308BE300D3D7EA6D4D9099C76556 /* Pods-MarkedView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 813C8A1820FD8F7F98B6618C73237DBB /* Pods-MarkedView_Tests-dummy.m */; };
-		FB8C9CAD1ACF02D07B788E7B8DD74D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0DA1165D2829FD1BDABCFA117FA66755 /* MarkedView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D89ED1DE0FEADC28E2CF172EBC1E3E9 /* MarkedView.bundle */; };
+		0FAB7206857217279761D5C08DDA2B2F /* md_preview.js in Resources */ = {isa = PBXBuildFile; fileRef = 986464D313C2FC5458EE98CC131FE218 /* md_preview.js */; };
+		1D67A3ECA5CDE0AC0FE77D2ABAD680E4 /* highlight.pack.js in Resources */ = {isa = PBXBuildFile; fileRef = 889197CAD723BF12A087C091147C05F5 /* highlight.pack.js */; };
+		352EA5B12E0B217752A53EDA0F96B386 /* Pods-MarkedView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C93DB614FEC07038A16400D04A2588 /* css in Resources */ = {isa = PBXBuildFile; fileRef = C7A5E06C879CC0EAE86E47EB17A7D2F1 /* css */; };
+		451EF00C3A0C6AC657A613C1FB6CC987 /* Pods-MarkedView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48332CC8C2225BEC7AD31E8B6CF96A23 /* WKMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5A9708765A32FDEC6EA6D1AF2E99C /* WKMarkedView.swift */; };
+		4BD16426BD429F5B814D778561D8FE2E /* github-gist.css in Resources */ = {isa = PBXBuildFile; fileRef = FC9D9377ECEEEC62716F2CC72772DA05 /* github-gist.css */; };
+		4D20D175114D16A196A904A5CBE07E4D /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = F05D759A8EEF8117A4D420DFCB8022BA /* github.css */; };
+		5152DBE6EF1DC412C6F78CB1EC34B799 /* html in Resources */ = {isa = PBXBuildFile; fileRef = 9C41BF31268A841590B404460FA9EFAD /* html */; };
+		518581D12696B0FE3D2731EC0493CDB0 /* ConversionMDFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474155EDDA95185BE0FB7B7BB027B88 /* ConversionMDFormat.swift */; };
+		55039C5CBD42C6F2A38EECDBC6942D2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E8AE28709F0D0A6BE56FC119F5C2879 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 6489E6F6FD89692975883C754BB64AB6 /* js */; };
+		61EBAE6C91BA271806F87788BCA5A3E6 /* MarkedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B713620A0D95350B62FC15F7FFD44E26 /* MarkedView-dummy.m */; };
+		67F9D9A2565DF3EF21F0D56D248BEB5D /* jquery-2.1.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1675CDA6BC552B05C21D4D750D75E8A2 /* jquery-2.1.4.min.js */; };
+		87F60EDF24315B1F2DDD47E590F10BAD /* UIMarkedView.xib in Sources */ = {isa = PBXBuildFile; fileRef = B25EA42A5B5CF5D4F94BC52E29324EF6 /* UIMarkedView.xib */; };
+		88950A92FE1D8A23BE0CBF7D150D6942 /* marked.js in Resources */ = {isa = PBXBuildFile; fileRef = 216057D58EA280AE922373B173EC7D09 /* marked.js */; };
+		8AFEE2DF3A758CD450086FCA28C8A620 /* UIMarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1A375591F26F776CC2881DC4B3AD6 /* UIMarkedView.swift */; };
+		98892F7A9A4199A2070AA09194FEBFB2 /* Pods-MarkedView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 813C8A1820FD8F7F98B6618C73237DBB /* Pods-MarkedView_Tests-dummy.m */; };
+		AAFA53582B51A80C264223467F70F9F4 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0689A3C82D5ED4E90512C75BB6D3C4A3 /* StringEx.swift */; };
+		AB0B76459C51B91E542E5601722DDA5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B7568169101720F93D3C56D5542C9A7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB5EC3D08CA6B292FB45C49D7DCECA90 /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = E4F273400D918CA8C77EAB9A3919DE7B /* bootstrap.css */; };
+		EBE09C1B9D7DE03E53C6DC2E4DF44DDE /* MarkedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A823C48EA7C218875055FF653AB30EC2 /* MarkedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE552E6DFE85CB56AD5CE3F136CB4DDB /* Pods-MarkedView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */; };
+		F9B640125301833B7EFC83A02C94525D /* md_preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 74268E7A4C92F53BAD743D2C08960A77 /* md_preview.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8505BD4B5C569E400D66DB4FF728EE9D /* PBXContainerItemProxy */ = {
+		2BB4501F6871CF4E55D62AB0CF58136B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E1B3F4C7987C270867B6E674B1C3CCF;
+			remoteGlobalIDString = DC42BCDE621E37CB23D046F134B06317;
 			remoteInfo = MarkedView;
 		};
-		A35D693B5DA3B10FAE04FC897CA0BAC6 /* PBXContainerItemProxy */ = {
+		31597FA3FD8939ABEAF5A113BA20D5EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEE5326C6D85630BA8180E23382F63A3;
+			remoteGlobalIDString = 0381F3FCEFEB60C5C17EC39A40FB13AA;
 			remoteInfo = "MarkedView-MarkedView";
 		};
-		C6030BACB34932128019E6A970D22E31 /* PBXContainerItemProxy */ = {
+		CC8E87544EA4942729C4E25850822AFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E1B3F4C7987C270867B6E674B1C3CCF;
+			remoteGlobalIDString = DC42BCDE621E37CB23D046F134B06317;
 			remoteInfo = MarkedView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02E403D460145A515A9369878DE1351A /* jquery-2.1.4.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = "jquery-2.1.4.min.js"; sourceTree = "<group>"; };
+		0689A3C82D5ED4E90512C75BB6D3C4A3 /* StringEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		09CCFED69F15751130DF2201EBCE8848 /* Pods-MarkedView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkedView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0EC3514BF67E7F6409144DB6BE43C465 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		113D34EE6C75D2C9C2B38BA7D27A3841 /* Pods-MarkedView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkedView_Tests.modulemap"; sourceTree = "<group>"; };
-		18EBDCCDF939B8AD6DF4B37D36BA5F37 /* github.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
-		239F8D40318CE7474243E0E2FBC2F527 /* MarkedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		252CB5BC718131CED948C484E9EADD48 /* MarkedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkedView-dummy.m"; sourceTree = "<group>"; };
+		113D34EE6C75D2C9C2B38BA7D27A3841 /* Pods-MarkedView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarkedView_Tests.modulemap"; sourceTree = "<group>"; };
+		1675CDA6BC552B05C21D4D750D75E8A2 /* jquery-2.1.4.min.js */ = {isa = PBXFileReference; includeInIndex = 1; path = "jquery-2.1.4.min.js"; sourceTree = "<group>"; };
+		216057D58EA280AE922373B173EC7D09 /* marked.js */ = {isa = PBXFileReference; includeInIndex = 1; path = marked.js; sourceTree = "<group>"; };
+		22A5A9708765A32FDEC6EA6D1AF2E99C /* WKMarkedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKMarkedView.swift; path = Pod/Classes/WKMarkedView.swift; sourceTree = "<group>"; };
 		2AB6BED4D0822D78FE2FAD5CD890F081 /* Pods-MarkedView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2D356ACBC19A489A8130D7E530FF5B5F /* marked.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = marked.js; sourceTree = "<group>"; };
+		2D89ED1DE0FEADC28E2CF172EBC1E3E9 /* MarkedView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MarkedView.bundle; path = MarkedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E79DF3458DA72146D6E624ACB6045F0 /* Pods_MarkedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarkedView_Example.framework; path = "Pods-MarkedView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDBA9758309F674D54FD7AF2175E673 /* Pods-MarkedView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkedView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3224FCF7535384AA2CFA9BEBC3DBC911 /* github-gist.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; path = "github-gist.css"; sourceTree = "<group>"; };
-		39528C6A6D90E43786D8372DACD9C1DF /* MarkedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MarkedView.modulemap; sourceTree = "<group>"; };
-		3C798EFCA432F931A943D5DD36168ADC /* bootstrap.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4117DA781D8FE0EF00A2C652 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		4117DA7A1D8FE0FB00A2C652 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		42672D7061BE04C347CF5A1104B8CFA0 /* Pods-MarkedView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkedView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		440457CBBD0211245B6E98CDBCC584E2 /* WKMarkedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WKMarkedView.swift; sourceTree = "<group>"; };
 		470B40F9DD46B4821C066A367F750347 /* Pods-MarkedView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		47D70D3C0B45C36A3408DFE0A388226C /* MarkedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkedView-umbrella.h"; sourceTree = "<group>"; };
-		4B9BD1DE67AF6556A9347E910AB632DB /* md_preview.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = md_preview.js; sourceTree = "<group>"; };
-		53769754D7E62E989F23B1616CE53F15 /* UIMarkedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIMarkedView.swift; sourceTree = "<group>"; };
-		5CBD7BA0060063E75A0A9585F4A7862F /* Pods_MarkedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CB53785C6BB6A3508E937FCB0CA27CA /* md_preview.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = md_preview.html; sourceTree = "<group>"; };
+		5401FEE309051AA4CEB852C9E32B6970 /* Pods_MarkedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarkedView_Tests.framework; path = "Pods-MarkedView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B82722E375B5C68D8EA17786FECC65 /* MarkedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkedView-prefix.pch"; sourceTree = "<group>"; };
+		6489E6F6FD89692975883C754BB64AB6 /* js */ = {isa = PBXFileReference; includeInIndex = 1; path = js; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7098384D0E5882248915FF85840D5134 /* Pods-MarkedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7535390C9DA96782916EE5CDF7E33384 /* Pods_MarkedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkedView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74268E7A4C92F53BAD743D2C08960A77 /* md_preview.html */ = {isa = PBXFileReference; includeInIndex = 1; path = md_preview.html; sourceTree = "<group>"; };
 		7943A8C4FB0B1A3D32F46608A94A8412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813C8A1820FD8F7F98B6618C73237DBB /* Pods-MarkedView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkedView_Tests-dummy.m"; sourceTree = "<group>"; };
 		84DE44FA32AC6A8FAEF29965719A3000 /* Pods-MarkedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		889197CAD723BF12A087C091147C05F5 /* highlight.pack.js */ = {isa = PBXFileReference; includeInIndex = 1; path = highlight.pack.js; sourceTree = "<group>"; };
 		8D182BEDE6DA2E82344F4892D1B5C8B2 /* Pods-MarkedView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkedView_Example-dummy.m"; sourceTree = "<group>"; };
-		8FDC1171DD457190B18E809E2E474F85 /* UIMarkedView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = UIMarkedView.xib; sourceTree = "<group>"; };
-		92E905A60E98112E61B4BB8EBFBEDE03 /* highlight.pack.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
-		95828B85F1F10C6B49012BF434DA3588 /* StringEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		90B8C5DAC6AD23062677D19F2B88B9D5 /* MarkedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarkedView.framework; path = MarkedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9764236D6236635FDA989B5FFFC3F91E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EEFD12D097EAD2B31112053B770C164 /* Pods-MarkedView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkedView_Example.modulemap"; sourceTree = "<group>"; };
-		A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		986464D313C2FC5458EE98CC131FE218 /* md_preview.js */ = {isa = PBXFileReference; includeInIndex = 1; path = md_preview.js; sourceTree = "<group>"; };
+		9C41BF31268A841590B404460FA9EFAD /* html */ = {isa = PBXFileReference; includeInIndex = 1; name = html; path = Pod/Assets/html; sourceTree = "<group>"; };
+		9E3EC2D61C2840B1987A270F891B31F2 /* ResourceBundle-MarkedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MarkedView-Info.plist"; sourceTree = "<group>"; };
+		9EEFD12D097EAD2B31112053B770C164 /* Pods-MarkedView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarkedView_Example.modulemap"; sourceTree = "<group>"; };
 		A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A823C48EA7C218875055FF653AB30EC2 /* MarkedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkedView-umbrella.h"; sourceTree = "<group>"; };
 		AD346F6202996DAADB90513B407FE025 /* Pods-MarkedView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Example-resources.sh"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B25EA42A5B5CF5D4F94BC52E29324EF6 /* UIMarkedView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UIMarkedView.xib; path = Pod/Classes/UIMarkedView.xib; sourceTree = "<group>"; };
+		B713620A0D95350B62FC15F7FFD44E26 /* MarkedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkedView-dummy.m"; sourceTree = "<group>"; };
+		BBF1A375591F26F776CC2881DC4B3AD6 /* UIMarkedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIMarkedView.swift; path = Pod/Classes/UIMarkedView.swift; sourceTree = "<group>"; };
 		C13ACFF857DE7CA5D853D620974FBCB8 /* Pods-MarkedView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkedView_Tests-resources.sh"; sourceTree = "<group>"; };
-		D29E0CD0AF8B324F3518685653CC11EA /* ConversionMDFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConversionMDFormat.swift; sourceTree = "<group>"; };
-		DA287AD5D46AD26B0317C4495144B6B8 /* MarkedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkedView.xcconfig; sourceTree = "<group>"; };
+		C7A5E06C879CC0EAE86E47EB17A7D2F1 /* css */ = {isa = PBXFileReference; includeInIndex = 1; path = css; sourceTree = "<group>"; };
 		DBD8F90E4606AA0E47E02A351D1661A0 /* Pods-MarkedView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarkedView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4F273400D918CA8C77EAB9A3919DE7B /* bootstrap.css */ = {isa = PBXFileReference; includeInIndex = 1; path = bootstrap.css; sourceTree = "<group>"; };
+		E5FE353AA98D01F6E19198B80D13BB77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC69EC85027AA61C5F522A1C214B64E1 /* Pods-MarkedView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkedView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFF120914501F6FB5C0437E84EE9B915 /* Pods-MarkedView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarkedView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F08B0890B6082042E33FEB228064AD30 /* MarkedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkedView-prefix.pch"; sourceTree = "<group>"; };
+		F05D759A8EEF8117A4D420DFCB8022BA /* github.css */ = {isa = PBXFileReference; includeInIndex = 1; path = github.css; sourceTree = "<group>"; };
+		F474155EDDA95185BE0FB7B7BB027B88 /* ConversionMDFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversionMDFormat.swift; path = Pod/Classes/ConversionMDFormat.swift; sourceTree = "<group>"; };
+		F47D068B4FD7044A57A3BADD04540691 /* MarkedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MarkedView.modulemap; sourceTree = "<group>"; };
+		F483F1732D96AE8BAB71FACF2AD7BABD /* MarkedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkedView.xcconfig; sourceTree = "<group>"; };
+		FC9D9377ECEEEC62716F2CC72772DA05 /* github-gist.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "github-gist.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01A02F4C72DE897919A2E49F062C98AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				742A8147A3B1A1E185C2816C27C87E9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		357E7B0E8E72371DC03E72F5CAF94F8E /* Frameworks */ = {
+		92DEB505B6118019658CE858D43E4865 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		367021E21B893BB3D29C22A942AA2BE1 /* Frameworks */ = {
+		A544E7A1C4A94C1C81F1DB27CE2869E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8C9CAD1ACF02D07B788E7B8DD74D60 /* Foundation.framework in Frameworks */,
+				55039C5CBD42C6F2A38EECDBC6942D2C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E84927054DB0E8A59983EBD22D999A40 /* Frameworks */ = {
+		EE5CAF3F1F4B0D9C25E7F0CACBC51ACE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4117DA7B1D8FE0FB00A2C652 /* UIKit.framework in Frameworks */,
-				4117DA791D8FE0EF00A2C652 /* WebKit.framework in Frameworks */,
-				8CDAA3ABC4F6D890E29B9FB95C3E76D0 /* Foundation.framework in Frameworks */,
+				AB0B76459C51B91E542E5601722DDA5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE52F8CE98C6BDBCDE6ABB8C12F01899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7568169101720F93D3C56D5542C9A7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CD7ADD40C987473B6758B35B2157894 /* extentions */ = {
-			isa = PBXGroup;
-			children = (
-				95828B85F1F10C6B49012BF434DA3588 /* StringEx.swift */,
-			);
-			path = extentions;
-			sourceTree = "<group>";
-		};
 		1313EB6D98D17494C7A4CC924CD2BD9C /* Pods-MarkedView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,20 +164,33 @@
 			path = "Target Support Files/Pods-MarkedView_Tests";
 			sourceTree = "<group>";
 		};
-		2C13655D525C8C6723034CEB4C01002B /* Pod */ = {
+		371BA71F0BA316D871448D2BF0BF067F /* js */ = {
 			isa = PBXGroup;
 			children = (
-				6CEB37A8B2C32019D484265C129131B0 /* Classes */,
+				889197CAD723BF12A087C091147C05F5 /* highlight.pack.js */,
+				1675CDA6BC552B05C21D4D750D75E8A2 /* jquery-2.1.4.min.js */,
+				216057D58EA280AE922373B173EC7D09 /* marked.js */,
+				986464D313C2FC5458EE98CC131FE218 /* md_preview.js */,
 			);
-			path = Pod;
+			name = js;
+			path = js;
 			sourceTree = "<group>";
 		};
-		412B5177EC5FE913880EB80DE1496C47 /* Assets */ = {
+		3F5C60949D8E798550A8ABF1C6F2E98C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8E27689C2E09982AEA94A363A3B86607 /* html */,
+				9C41BF31268A841590B404460FA9EFAD /* html */,
+				6EACA2CBC5B424A0F07B5E011735385E /* html */,
 			);
-			path = Assets;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41FB07295B050ADF2B6079A4E8501887 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B32159886AF6D8509B9C7A8DFD8216 /* MarkedView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		464C9C9B3E352E7BE0F64333070F6641 /* Pods-MarkedView_Example */ = {
@@ -214,78 +220,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5F660AFBEFEBCAF3C6B880DFE9B0420E /* MarkedView */ = {
+		6EACA2CBC5B424A0F07B5E011735385E /* html */ = {
 			isa = PBXGroup;
 			children = (
-				2C13655D525C8C6723034CEB4C01002B /* Pod */,
-				FCDD28FF5EA4AB4841F310E285172BE7 /* Resources */,
-				AB0A44A3E76B73696DC8E0CCA5E4B773 /* Support Files */,
+				C7A5E06C879CC0EAE86E47EB17A7D2F1 /* css */,
+				6489E6F6FD89692975883C754BB64AB6 /* js */,
+				74268E7A4C92F53BAD743D2C08960A77 /* md_preview.html */,
+				E0781E64D92ECAF4479F926A246B8F2F /* css */,
+				371BA71F0BA316D871448D2BF0BF067F /* js */,
 			);
-			name = MarkedView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6CEB37A8B2C32019D484265C129131B0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D29E0CD0AF8B324F3518685653CC11EA /* ConversionMDFormat.swift */,
-				53769754D7E62E989F23B1616CE53F15 /* UIMarkedView.swift */,
-				8FDC1171DD457190B18E809E2E474F85 /* UIMarkedView.xib */,
-				440457CBBD0211245B6E98CDBCC584E2 /* WKMarkedView.swift */,
-				0CD7ADD40C987473B6758B35B2157894 /* extentions */,
-			);
-			path = Classes;
+			name = html;
+			path = Pod/Assets/html;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				D08BB53BAF5BF1C505C5A9BDD7803E15 /* Development Pods */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				41FB07295B050ADF2B6079A4E8501887 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C4527E0B0A13D55AD422DCE13444C930 /* Products */,
+				BD5BB7883C5664F0D0E05B17105CE4F0 /* Products */,
 				4B4B60DCE88CC5D0B902859A91D0B22E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8E27689C2E09982AEA94A363A3B86607 /* html */ = {
+		A2C69BE2323A530B0271217D7E935E5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CB53785C6BB6A3508E937FCB0CA27CA /* md_preview.html */,
-				C050830CA59D73C6759FFDB0D15FC65F /* css */,
-				A96C5D75C38596696095F8828208E1AE /* js */,
-			);
-			path = html;
-			sourceTree = "<group>";
-		};
-		95058490C2BE0BD8C3E9DEF43330E8BE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				412B5177EC5FE913880EB80DE1496C47 /* Assets */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		A96C5D75C38596696095F8828208E1AE /* js */ = {
-			isa = PBXGroup;
-			children = (
-				92E905A60E98112E61B4BB8EBFBEDE03 /* highlight.pack.js */,
-				02E403D460145A515A9369878DE1351A /* jquery-2.1.4.min.js */,
-				2D356ACBC19A489A8130D7E530FF5B5F /* marked.js */,
-				4B9BD1DE67AF6556A9347E910AB632DB /* md_preview.js */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		AB0A44A3E76B73696DC8E0CCA5E4B773 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0EC3514BF67E7F6409144DB6BE43C465 /* Info.plist */,
-				39528C6A6D90E43786D8372DACD9C1DF /* MarkedView.modulemap */,
-				DA287AD5D46AD26B0317C4495144B6B8 /* MarkedView.xcconfig */,
-				252CB5BC718131CED948C484E9EADD48 /* MarkedView-dummy.m */,
-				F08B0890B6082042E33FEB228064AD30 /* MarkedView-prefix.pch */,
-				47D70D3C0B45C36A3408DFE0A388226C /* MarkedView-umbrella.h */,
+				E5FE353AA98D01F6E19198B80D13BB77 /* Info.plist */,
+				F47D068B4FD7044A57A3BADD04540691 /* MarkedView.modulemap */,
+				F483F1732D96AE8BAB71FACF2AD7BABD /* MarkedView.xcconfig */,
+				B713620A0D95350B62FC15F7FFD44E26 /* MarkedView-dummy.m */,
+				61B82722E375B5C68D8EA17786FECC65 /* MarkedView-prefix.pch */,
+				A823C48EA7C218875055FF653AB30EC2 /* MarkedView-umbrella.h */,
+				9E3EC2D61C2840B1987A270F891B31F2 /* ResourceBundle-MarkedView-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MarkedView";
@@ -294,150 +262,102 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4117DA7A1D8FE0FB00A2C652 /* UIKit.framework */,
-				4117DA781D8FE0EF00A2C652 /* WebKit.framework */,
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		BD5BB7883C5664F0D0E05B17105CE4F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C050830CA59D73C6759FFDB0D15FC65F /* css */ = {
-			isa = PBXGroup;
-			children = (
-				3C798EFCA432F931A943D5DD36168ADC /* bootstrap.css */,
-				18EBDCCDF939B8AD6DF4B37D36BA5F37 /* github.css */,
-				3224FCF7535384AA2CFA9BEBC3DBC911 /* github-gist.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		C4527E0B0A13D55AD422DCE13444C930 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */,
-				239F8D40318CE7474243E0E2FBC2F527 /* MarkedView.framework */,
-				7535390C9DA96782916EE5CDF7E33384 /* Pods_MarkedView_Example.framework */,
-				5CBD7BA0060063E75A0A9585F4A7862F /* Pods_MarkedView_Tests.framework */,
+				2D89ED1DE0FEADC28E2CF172EBC1E3E9 /* MarkedView.bundle */,
+				90B8C5DAC6AD23062677D19F2B88B9D5 /* MarkedView.framework */,
+				2E79DF3458DA72146D6E624ACB6045F0 /* Pods_MarkedView_Example.framework */,
+				5401FEE309051AA4CEB852C9E32B6970 /* Pods_MarkedView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D08BB53BAF5BF1C505C5A9BDD7803E15 /* Development Pods */ = {
+		C1FBD8E8E14DDA04BA192E1C22D805DA /* extentions */ = {
 			isa = PBXGroup;
 			children = (
-				5F660AFBEFEBCAF3C6B880DFE9B0420E /* MarkedView */,
+				0689A3C82D5ED4E90512C75BB6D3C4A3 /* StringEx.swift */,
 			);
-			name = "Development Pods";
+			name = extentions;
+			path = Pod/Classes/extentions;
 			sourceTree = "<group>";
 		};
-		FCDD28FF5EA4AB4841F310E285172BE7 /* Resources */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				95058490C2BE0BD8C3E9DEF43330E8BE /* Pod */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			name = Resources;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E0781E64D92ECAF4479F926A246B8F2F /* css */ = {
+			isa = PBXGroup;
+			children = (
+				E4F273400D918CA8C77EAB9A3919DE7B /* bootstrap.css */,
+				F05D759A8EEF8117A4D420DFCB8022BA /* github.css */,
+				FC9D9377ECEEEC62716F2CC72772DA05 /* github-gist.css */,
+			);
+			name = css;
+			path = css;
+			sourceTree = "<group>";
+		};
+		E6B32159886AF6D8509B9C7A8DFD8216 /* MarkedView */ = {
+			isa = PBXGroup;
+			children = (
+				F474155EDDA95185BE0FB7B7BB027B88 /* ConversionMDFormat.swift */,
+				BBF1A375591F26F776CC2881DC4B3AD6 /* UIMarkedView.swift */,
+				B25EA42A5B5CF5D4F94BC52E29324EF6 /* UIMarkedView.xib */,
+				22A5A9708765A32FDEC6EA6D1AF2E99C /* WKMarkedView.swift */,
+				C1FBD8E8E14DDA04BA192E1C22D805DA /* extentions */,
+				3F5C60949D8E798550A8ABF1C6F2E98C /* Resources */,
+				A2C69BE2323A530B0271217D7E935E5A /* Support Files */,
+			);
+			name = MarkedView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0869376408FE18C26BA373D1583D1030 /* Headers */ = {
+		51FB09CB0DBAA802AA074A8E2856BE1A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				480144F862D7A7E846BEFED36D869E78 /* Pods-MarkedView_Tests-umbrella.h in Headers */,
+				EBE09C1B9D7DE03E53C6DC2E4DF44DDE /* MarkedView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		241EF22EB1C9088FB352CB1A58FA9773 /* Headers */ = {
+		677A3F093667B8C17FAE4377DF476E9A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6217391CB8DD2F341A8FB930BBC378CA /* Pods-MarkedView_Example-umbrella.h in Headers */,
+				352EA5B12E0B217752A53EDA0F96B386 /* Pods-MarkedView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4E3C65108AEA5002F0838FDB76B5DC2 /* Headers */ = {
+		E35E61C3CDC2F0BF9F37D7663EC14032 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9DC77791DF63E7F0981659B88C7A5B /* MarkedView-umbrella.h in Headers */,
+				451EF00C3A0C6AC657A613C1FB6CC987 /* Pods-MarkedView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		19EF38CA8C8F6E4B6DD230BD69E77BFF /* Pods-MarkedView_Tests */ = {
+		0381F3FCEFEB60C5C17EC39A40FB13AA /* MarkedView-MarkedView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B5C08CDD0A197D329C30E11D3837346 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Tests" */;
+			buildConfigurationList = 46C75503C371C8D76EE8C78ECD7BB11E /* Build configuration list for PBXNativeTarget "MarkedView-MarkedView" */;
 			buildPhases = (
-				9C44B44E5BD9456A9EFA811BD96AC439 /* Sources */,
-				367021E21B893BB3D29C22A942AA2BE1 /* Frameworks */,
-				0869376408FE18C26BA373D1583D1030 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AD471F06A39CF3A63F43714A20C2AAB /* PBXTargetDependency */,
-			);
-			name = "Pods-MarkedView_Tests";
-			productName = "Pods-MarkedView_Tests";
-			productReference = 5CBD7BA0060063E75A0A9585F4A7862F /* Pods_MarkedView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		57E4733012269440750EC9C6C8E7174E /* Pods-MarkedView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45CCFE388E2535D366EF2AFF7A6CFBFE /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Example" */;
-			buildPhases = (
-				BF8695192E606AD92300CCA16C4AE4CE /* Sources */,
-				01A02F4C72DE897919A2E49F062C98AD /* Frameworks */,
-				241EF22EB1C9088FB352CB1A58FA9773 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB42C13BCE26CAD113335C603FE08E19 /* PBXTargetDependency */,
-			);
-			name = "Pods-MarkedView_Example";
-			productName = "Pods-MarkedView_Example";
-			productReference = 7535390C9DA96782916EE5CDF7E33384 /* Pods_MarkedView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6E1B3F4C7987C270867B6E674B1C3CCF /* MarkedView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF15EEF922C96D25E97C53FDF39596DC /* Build configuration list for PBXNativeTarget "MarkedView" */;
-			buildPhases = (
-				2CF66EC6DFBD252C00C43FAFCBC2AA45 /* Sources */,
-				E84927054DB0E8A59983EBD22D999A40 /* Frameworks */,
-				CF50EF5188B3FE32E9E95F2217C5F3B3 /* Resources */,
-				C4E3C65108AEA5002F0838FDB76B5DC2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BE8B0BB98DACC36FF4FDB22D2B7583F /* PBXTargetDependency */,
-			);
-			name = MarkedView;
-			productName = MarkedView;
-			productReference = 239F8D40318CE7474243E0E2FBC2F527 /* MarkedView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FEE5326C6D85630BA8180E23382F63A3 /* MarkedView-MarkedView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 24A45837A99BDEC777F9B62BD931609C /* Build configuration list for PBXNativeTarget "MarkedView-MarkedView" */;
-			buildPhases = (
-				89E85666F45DB2D825A8E5EEDE909FEA /* Sources */,
-				357E7B0E8E72371DC03E72F5CAF94F8E /* Frameworks */,
-				6A90794D2884CD41B9BFF513B96E2841 /* Resources */,
+				5CEA45187E2842069A2F9105778D0E6A /* Sources */,
+				92DEB505B6118019658CE858D43E4865 /* Frameworks */,
+				1D3A713165544DB61C7E03F46BD50A90 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -445,8 +365,63 @@
 			);
 			name = "MarkedView-MarkedView";
 			productName = "MarkedView-MarkedView";
-			productReference = A0331FC125DEE28AD95DDD69F6588BFC /* MarkedView.bundle */;
+			productReference = 2D89ED1DE0FEADC28E2CF172EBC1E3E9 /* MarkedView.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		6D067F2601A7B9173B5B528C1028702C /* Pods-MarkedView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976C4A77754F887BD013D4D885636595 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Tests" */;
+			buildPhases = (
+				A016C1D847A854F34C9BECF3632634DD /* Sources */,
+				A544E7A1C4A94C1C81F1DB27CE2869E4 /* Frameworks */,
+				E35E61C3CDC2F0BF9F37D7663EC14032 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4CA8E5EEF43D088359E252BC1A13990 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarkedView_Tests";
+			productName = "Pods-MarkedView_Tests";
+			productReference = 5401FEE309051AA4CEB852C9E32B6970 /* Pods_MarkedView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC42BCDE621E37CB23D046F134B06317 /* MarkedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3327A5841B6F93F21B66D7D3E5F59D /* Build configuration list for PBXNativeTarget "MarkedView" */;
+			buildPhases = (
+				88C484B011CEAB5D1A9CB630BFA8B288 /* Sources */,
+				FE52F8CE98C6BDBCDE6ABB8C12F01899 /* Frameworks */,
+				46FFA1EB52CB3FFCF26C478AD76A09E5 /* Resources */,
+				51FB09CB0DBAA802AA074A8E2856BE1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA6EECDE0F6C1A9C893814E7863A77D /* PBXTargetDependency */,
+			);
+			name = MarkedView;
+			productName = MarkedView;
+			productReference = 90B8C5DAC6AD23062677D19F2B88B9D5 /* MarkedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F89C75AEAE825D67AF415AFAD99B7C3F /* Pods-MarkedView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30A9AFD4AA27E66101A85241DD7350 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Example" */;
+			buildPhases = (
+				546D60091F3ADD9ECCE955B4C8976149 /* Sources */,
+				EE5CAF3F1F4B0D9C25E7F0CACBC51ACE /* Frameworks */,
+				677A3F093667B8C17FAE4377DF476E9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96321C85E5B15B4D41CED41A24E408D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarkedView_Example";
+			productName = "Pods-MarkedView_Example";
+			productReference = 2E79DF3458DA72146D6E624ACB6045F0 /* Pods_MarkedView_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -454,22 +429,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
-				TargetAttributes = {
-					19EF38CA8C8F6E4B6DD230BD69E77BFF = {
-						LastSwiftMigration = 0800;
-					};
-					57E4733012269440750EC9C6C8E7174E = {
-						LastSwiftMigration = 0800;
-					};
-					6E1B3F4C7987C270867B6E674B1C3CCF = {
-						LastSwiftMigration = 0800;
-					};
-					FEE5326C6D85630BA8180E23382F63A3 = {
-						LastSwiftMigration = 0800;
-					};
-				};
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -479,171 +440,131 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C4527E0B0A13D55AD422DCE13444C930 /* Products */;
+			productRefGroup = BD5BB7883C5664F0D0E05B17105CE4F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E1B3F4C7987C270867B6E674B1C3CCF /* MarkedView */,
-				FEE5326C6D85630BA8180E23382F63A3 /* MarkedView-MarkedView */,
-				57E4733012269440750EC9C6C8E7174E /* Pods-MarkedView_Example */,
-				19EF38CA8C8F6E4B6DD230BD69E77BFF /* Pods-MarkedView_Tests */,
+				DC42BCDE621E37CB23D046F134B06317 /* MarkedView */,
+				0381F3FCEFEB60C5C17EC39A40FB13AA /* MarkedView-MarkedView */,
+				F89C75AEAE825D67AF415AFAD99B7C3F /* Pods-MarkedView_Example */,
+				6D067F2601A7B9173B5B528C1028702C /* Pods-MarkedView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A90794D2884CD41B9BFF513B96E2841 /* Resources */ = {
+		1D3A713165544DB61C7E03F46BD50A90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC654E1C8B9BBB9AA0A300BB57BA1D50 /* bootstrap.css in Resources */,
-				1E607D32E99EBC058D84B81771B53EC4 /* github-gist.css in Resources */,
-				C45A807B9A8AE77B1715010B4C6B1141 /* github.css in Resources */,
-				8F6C4CEDFA8F6B76462FA78FD34B07EC /* highlight.pack.js in Resources */,
-				2E37EDA03CBEEE24A5B59E5F4ADCBA22 /* jquery-2.1.4.min.js in Resources */,
-				BE21442247674873D66C66326F944F06 /* marked.js in Resources */,
-				57079744E91A1423916D62FB5A327EC9 /* md_preview.html in Resources */,
-				88996877EB7BC590C288A19D908AAC54 /* md_preview.js in Resources */,
+				EB5EC3D08CA6B292FB45C49D7DCECA90 /* bootstrap.css in Resources */,
+				44C93DB614FEC07038A16400D04A2588 /* css in Resources */,
+				4BD16426BD429F5B814D778561D8FE2E /* github-gist.css in Resources */,
+				4D20D175114D16A196A904A5CBE07E4D /* github.css in Resources */,
+				1D67A3ECA5CDE0AC0FE77D2ABAD680E4 /* highlight.pack.js in Resources */,
+				5152DBE6EF1DC412C6F78CB1EC34B799 /* html in Resources */,
+				67F9D9A2565DF3EF21F0D56D248BEB5D /* jquery-2.1.4.min.js in Resources */,
+				5E8AE28709F0D0A6BE56FC119F5C2879 /* js in Resources */,
+				88950A92FE1D8A23BE0CBF7D150D6942 /* marked.js in Resources */,
+				F9B640125301833B7EFC83A02C94525D /* md_preview.html in Resources */,
+				0FAB7206857217279761D5C08DDA2B2F /* md_preview.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF50EF5188B3FE32E9E95F2217C5F3B3 /* Resources */ = {
+		46FFA1EB52CB3FFCF26C478AD76A09E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4354672A74D8796231A95F2DD2314D2 /* MarkedView.bundle in Resources */,
+				0DA1165D2829FD1BDABCFA117FA66755 /* MarkedView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CF66EC6DFBD252C00C43FAFCBC2AA45 /* Sources */ = {
+		546D60091F3ADD9ECCE955B4C8976149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDF03DFDC73777CFFDF713D61FFE89F /* ConversionMDFormat.swift in Sources */,
-				32E016602BC9724FCAB91D4589224A73 /* MarkedView-dummy.m in Sources */,
-				7DE4E2B6D74E1F08144A415C121C53E3 /* StringEx.swift in Sources */,
-				C865F7D48B7286EF8DE3CBBFB730BC38 /* UIMarkedView.swift in Sources */,
-				B4391CA726FC3071A64E6F7B8FCB89CF /* UIMarkedView.xib in Sources */,
-				3CE1A8A5BAE2A625D65988A223DAF1F3 /* WKMarkedView.swift in Sources */,
+				EE552E6DFE85CB56AD5CE3F136CB4DDB /* Pods-MarkedView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89E85666F45DB2D825A8E5EEDE909FEA /* Sources */ = {
+		5CEA45187E2842069A2F9105778D0E6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C44B44E5BD9456A9EFA811BD96AC439 /* Sources */ = {
+		88C484B011CEAB5D1A9CB630BFA8B288 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44C308BE300D3D7EA6D4D9099C76556 /* Pods-MarkedView_Tests-dummy.m in Sources */,
+				518581D12696B0FE3D2731EC0493CDB0 /* ConversionMDFormat.swift in Sources */,
+				61EBAE6C91BA271806F87788BCA5A3E6 /* MarkedView-dummy.m in Sources */,
+				AAFA53582B51A80C264223467F70F9F4 /* StringEx.swift in Sources */,
+				8AFEE2DF3A758CD450086FCA28C8A620 /* UIMarkedView.swift in Sources */,
+				87F60EDF24315B1F2DDD47E590F10BAD /* UIMarkedView.xib in Sources */,
+				48332CC8C2225BEC7AD31E8B6CF96A23 /* WKMarkedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF8695192E606AD92300CCA16C4AE4CE /* Sources */ = {
+		A016C1D847A854F34C9BECF3632634DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE01A60D87AE6B31539786539AE8643 /* Pods-MarkedView_Example-dummy.m in Sources */,
+				98892F7A9A4199A2070AA09194FEBFB2 /* Pods-MarkedView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BE8B0BB98DACC36FF4FDB22D2B7583F /* PBXTargetDependency */ = {
+		7AA6EECDE0F6C1A9C893814E7863A77D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MarkedView-MarkedView";
-			target = FEE5326C6D85630BA8180E23382F63A3 /* MarkedView-MarkedView */;
-			targetProxy = A35D693B5DA3B10FAE04FC897CA0BAC6 /* PBXContainerItemProxy */;
+			target = 0381F3FCEFEB60C5C17EC39A40FB13AA /* MarkedView-MarkedView */;
+			targetProxy = 31597FA3FD8939ABEAF5A113BA20D5EC /* PBXContainerItemProxy */;
 		};
-		8AD471F06A39CF3A63F43714A20C2AAB /* PBXTargetDependency */ = {
+		96321C85E5B15B4D41CED41A24E408D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarkedView;
-			target = 6E1B3F4C7987C270867B6E674B1C3CCF /* MarkedView */;
-			targetProxy = C6030BACB34932128019E6A970D22E31 /* PBXContainerItemProxy */;
+			target = DC42BCDE621E37CB23D046F134B06317 /* MarkedView */;
+			targetProxy = 2BB4501F6871CF4E55D62AB0CF58136B /* PBXContainerItemProxy */;
 		};
-		EB42C13BCE26CAD113335C603FE08E19 /* PBXTargetDependency */ = {
+		D4CA8E5EEF43D088359E252BC1A13990 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarkedView;
-			target = 6E1B3F4C7987C270867B6E674B1C3CCF /* MarkedView */;
-			targetProxy = 8505BD4B5C569E400D66DB4FF728EE9D /* PBXContainerItemProxy */;
+			target = DC42BCDE621E37CB23D046F134B06317 /* MarkedView */;
+			targetProxy = CC8E87544EA4942729C4E25850822AFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ED7BC48B5ED731786C1B4E8878EDC87 /* Debug */ = {
+		120C325911DECD48D8E437B0CFA7872C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */;
+			baseConfigurationReference = 84DE44FA32AC6A8FAEF29965719A3000 /* Pods-MarkedView_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MarkedView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0F291DB2107B78F021C278A3DC2D87E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA287AD5D46AD26B0317C4495144B6B8 /* MarkedView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5EDF95EA2B74364E29D5055D66227485 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Tests/Pods-MarkedView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -651,18 +572,37 @@
 				PRODUCT_NAME = Pods_MarkedView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		1A57DE5D5E1AA0C47F72C1B30146E7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F483F1732D96AE8BAB71FACF2AD7BABD /* MarkedView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MarkedView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MarkedView/ResourceBundle-MarkedView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MarkedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -670,6 +610,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -678,14 +619,14 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -698,36 +639,112 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		BC07E6B6CC36A46A09BE3DC84FF534DB /* Debug */ = {
+		25248B9FA0BAE0699200D89B1B27FC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA287AD5D46AD26B0317C4495144B6B8 /* MarkedView.xcconfig */;
+			baseConfigurationReference = 43DFC0CB8075A29E880D54DD41789255 /* Pods-MarkedView_Example.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C19AF95AB07734D4298B91FE81EE40DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7098384D0E5882248915FF85840D5134 /* Pods-MarkedView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Example/Pods-MarkedView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarkedView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522E345D9968F34A1C23D3B0D66EACE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7098384D0E5882248915FF85840D5134 /* Pods-MarkedView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -742,6 +759,7 @@
 				PRODUCT_NAME = Pods_MarkedView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -749,17 +767,22 @@
 			};
 			name = Release;
 		};
-		CED5CCB465AAC56AD38E177B6ACB9F56 /* Release */ = {
+		B1725364CFFD5926907C8C511585C4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA287AD5D46AD26B0317C4495144B6B8 /* MarkedView.xcconfig */;
+			baseConfigurationReference = F483F1732D96AE8BAB71FACF2AD7BABD /* MarkedView.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MarkedView/MarkedView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MarkedView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -767,10 +790,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MarkedView/MarkedView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MarkedView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -778,25 +802,46 @@
 			};
 			name = Release;
 		};
-		DEB55F3B68D518D5BB9B610F200E1765 /* Release */ = {
+		C68115D49F9DEC23CBDC569FA9168798 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84DE44FA32AC6A8FAEF29965719A3000 /* Pods-MarkedView_Tests.release.xcconfig */;
+			baseConfigurationReference = F483F1732D96AE8BAB71FACF2AD7BABD /* MarkedView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MarkedView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MarkedView/ResourceBundle-MarkedView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MarkedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E6070E3884CE6A01E4C0E381D5C42613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22CE3496213251EC3A38FEA7D79A60C /* Pods-MarkedView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MarkedView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MarkedView_Tests/Pods-MarkedView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -804,35 +849,7 @@
 				PRODUCT_NAME = Pods_MarkedView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F86298035907DA1444C4CC4FF54ABDFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA287AD5D46AD26B0317C4495144B6B8 /* MarkedView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MarkedView/MarkedView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MarkedView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MarkedView/MarkedView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MarkedView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -841,53 +858,49 @@
 			};
 			name = Debug;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		EAE0BAE6A89995DBA2F9B82DC2CE02FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F483F1732D96AE8BAB71FACF2AD7BABD /* MarkedView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarkedView/MarkedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkedView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarkedView/MarkedView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MarkedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24A45837A99BDEC777F9B62BD931609C /* Build configuration list for PBXNativeTarget "MarkedView-MarkedView" */ = {
+		1E30A9AFD4AA27E66101A85241DD7350 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC07E6B6CC36A46A09BE3DC84FF534DB /* Debug */,
-				0F291DB2107B78F021C278A3DC2D87E3 /* Release */,
+				25248B9FA0BAE0699200D89B1B27FC49 /* Debug */,
+				522E345D9968F34A1C23D3B0D66EACE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -895,35 +908,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45CCFE388E2535D366EF2AFF7A6CFBFE /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Example" */ = {
+		46C75503C371C8D76EE8C78ECD7BB11E /* Build configuration list for PBXNativeTarget "MarkedView-MarkedView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ED7BC48B5ED731786C1B4E8878EDC87 /* Debug */,
-				C19AF95AB07734D4298B91FE81EE40DE /* Release */,
+				C68115D49F9DEC23CBDC569FA9168798 /* Debug */,
+				1A57DE5D5E1AA0C47F72C1B30146E7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B5C08CDD0A197D329C30E11D3837346 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Tests" */ = {
+		5A3327A5841B6F93F21B66D7D3E5F59D /* Build configuration list for PBXNativeTarget "MarkedView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EDF95EA2B74364E29D5055D66227485 /* Debug */,
-				DEB55F3B68D518D5BB9B610F200E1765 /* Release */,
+				EAE0BAE6A89995DBA2F9B82DC2CE02FE /* Debug */,
+				B1725364CFFD5926907C8C511585C4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF15EEF922C96D25E97C53FDF39596DC /* Build configuration list for PBXNativeTarget "MarkedView" */ = {
+		976C4A77754F887BD013D4D885636595 /* Build configuration list for PBXNativeTarget "Pods-MarkedView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F86298035907DA1444C4CC4FF54ABDFE /* Debug */,
-				CED5CCB465AAC56AD38E177B6ACB9F56 /* Release */,
+				E6070E3884CE6A01E4C0E381D5C42613 /* Debug */,
+				120C325911DECD48D8E437B0CFA7872C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
