@@ -60,6 +60,9 @@ mdView.textToMark(contents)
 ### Delegate
 
 * UIMarkViewDelegate  (UIMarkedView)
+* WKMarkViewDelegate  (WKMarkedView)
+
+Example
 
 ```
 extension UIMarkedController: UIMarkViewDelegate {
@@ -78,25 +81,11 @@ extension UIMarkedController: UIMarkViewDelegate {
 }
 ```
 
+#### Delegate Method
 
-* WKMarkViewDelegate  (WKMarkedView)
+* Function to detect link is fingered in page
+    * `optional func markViewRedirect(url: URL)`
 
-```
-extension WKMarkedController: WKMarkViewDelegate {
-
-    func markViewRedirect(url: URL) {
-        if #available(iOS 9.0, *) {
-            let safari = SFSafariViewController(url: url)
-            self.present(safari, animated: true, completion: nil)
-
-        } else {
-            if(UIApplication.shared.canOpenURL(url)) {
-                UIApplication.shared.openURL(url)
-            }
-        }
-    }
-}
-```
 
 
 
